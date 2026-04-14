@@ -1,0 +1,1119 @@
+2026-04-10T08:02:53-07:00 LAUNCH
+[I 2026-04-10 08:02:59.531 ServerApp] Extension package dask_labextension took 1.3564s to import
+[W 2026-04-10 08:02:59.531 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-04-10 08:02:59.637 ServerApp] Extension package jupyter_lsp took 0.1052s to import
+[I 2026-04-10 08:03:00.327 ServerApp] Extension package jupyterlab_git took 0.1172s to import
+[I 2026-04-10 08:03:01.499 ServerApp] Extension package jupyterlab_h5web took 1.1714s to import
+[I 2026-04-10 08:03:01.837 ServerApp] Extension package jupyterlab_jupytext took 0.3381s to import
+[W 2026-04-10 08:03:01.953 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-04-10 08:03:01.960 ServerApp] dask_labextension | extension was successfully linked.
+[I 2026-04-10 08:03:01.961 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-04-10 08:03:01.961 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-04-10 08:03:01.969 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2026-04-10 08:03:01.970 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2026-04-10 08:03:01.976 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-04-10 08:03:01.977 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2026-04-10 08:03:01.977 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/c/chaseg
+[I 2026-04-10 08:03:01.981 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-04-10 08:03:01.987 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-04-10 08:03:01.990 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-04-10 08:03:01.990 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-04-10 08:03:01.991 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-04-10 08:03:01.991 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2026-04-10 08:03:01.991 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2026-04-10 08:03:01.992 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2026-04-10 08:03:01.992 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2026-04-10 08:03:01.997 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-04-10 08:03:01.999 ServerApp] nbclassic | extension was successfully linked.
+[I 2026-04-10 08:03:01.999 ServerApp] nbdime | extension was successfully linked.
+[W 2026-04-10 08:03:02.004 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-04-10 08:03:02.007 ServerApp] notebook | extension was successfully linked.
+[I 2026-04-10 08:03:02.008 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-b3c1c498-44b7-4156-82de-1644615d0437/jupyter_cookie_secret
+[I 2026-04-10 08:03:02.038 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-04-10 08:03:02.129 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-04-10 08:03:02.133 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2026-04-10 08:03:02.136 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-04-10 08:03:02.137 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-04-10 08:03:02.138 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2026-04-10 08:03:02.190 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2026-04-10 08:03:02.193 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-04-10 08:03:02.213 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-04-10 08:03:02.213 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-04-10 08:03:02.461 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-04-10 08:03:02.586 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyterlab
+[I 2026-04-10 08:03:02.587 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/26-03/share/jupyter/lab
+[I 2026-04-10 08:03:02.589 LabApp] Extension Manager is 'pypi'.
+[I 2026-04-10 08:03:02.611 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-04-10 08:03:02.612 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-04-10 08:03:02.612 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-04-10 08:03:02.618 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-04-10 08:03:02.885 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2026-04-10 08:03:02.885 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2026-04-10 08:03:02.886 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2026-04-10 08:03:02.886 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2026-04-10 08:03:02.887 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2026-04-10 08:03:02.888 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2026-04-10 08:03:02.888 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+[I 2026-04-10 08:03:02.889 ServerApp] Registered jupyterlab_wall server extension
+[I 2026-04-10 08:03:02.889 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2026-04-10 08:03:02.928 ServerApp] nbclassic | extension was successfully loaded.
+[I 2026-04-10 08:03:03.293 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-04-10 08:03:03.385 ServerApp] notebook | extension was successfully loaded.
+[I 2026-04-10 08:03:03.386 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2026-04-10 08:03:03.387 ServerApp] Serving notebooks from local directory: /
+[I 2026-04-10 08:03:03.387 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2026-04-10 08:03:03.387 ServerApp] http://nid001012:42161/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-04-10 08:03:03.387 ServerApp]     http://127.0.0.1:42161/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-04-10 08:03:03.388 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-04-10 08:03:18.106 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:03:19.432 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:03:21.095 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:03:23.909 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-04-10 08:03:24.254 ServerApp] Loaded Jupytext configuration file at /global/common/software/nersc9/jupyter/ex/26-03/etc/jupytext/jupytext.toml
+2026-04-10 08:03:24,726 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+[W 2026-04-10 08:03:25.266 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:03:36.999 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[W 2026-04-10 08:03:38.032 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[W 2026-04-10 08:03:38.080 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:03:41.043 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[W 2026-04-10 08:03:46.060 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[W 2026-04-10 08:03:47.021 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:03:49.056 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[W 2026-04-10 08:03:59.027 ServerApp] wrote error: 'Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 022ea61c-bb54-44a8-a58e-f4c8823056bb)
+[W 2026-04-10 08:04:03.057 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[W 2026-04-10 08:04:29.184 ServerApp] wrote error: 'Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7f04020-ce1a-4baa-9b56-d244004206aa)
+[I 2026-04-10 08:05:52.859 ServerApp] Kernel started: 8f67da83-7e9a-44e4-acaf-4ba609c31181
+[I 2026-04-10 08:05:52.860 ServerApp] Culling kernels with idle durations > 64800 seconds at 300 second intervals ...
+[I 2026-04-10 08:05:58.573 ServerApp] Connecting to kernel 8f67da83-7e9a-44e4-acaf-4ba609c31181.
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:05:59.712 ServerApp] Kernel started: 693516d8-81c1-445b-ab55-7d3822b91189
+[I 2026-04-10 08:05:59.713 ServerApp] Kernel shutdown: 8f67da83-7e9a-44e4-acaf-4ba609c31181
+[I 2026-04-10 08:06:08.934 ServerApp] Connecting to kernel 693516d8-81c1-445b-ab55-7d3822b91189.
+[I 2026-04-10 08:06:14.016 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:06:14.050 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:06:17.130 ServerApp] Kernel restarted: 693516d8-81c1-445b-ab55-7d3822b91189
+[I 2026-04-10 08:06:17.176 ServerApp] Starting buffering for 693516d8-81c1-445b-ab55-7d3822b91189:ee1d4dae-5922-4b1c-a751-9d543cd091df
+[I 2026-04-10 08:06:17.178 ServerApp] Connecting to kernel 693516d8-81c1-445b-ab55-7d3822b91189.
+[I 2026-04-10 08:06:17.179 ServerApp] Restoring connection for 693516d8-81c1-445b-ab55-7d3822b91189:ee1d4dae-5922-4b1c-a751-9d543cd091df
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+2026-04-10 08:06:28.716729: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775833588.910690 1522699 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775833588.982869 1522699 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775833589.417064 1522699 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775833589.417090 1522699 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775833589.417095 1522699 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775833589.417099 1522699 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 08:08:15.112 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:08:15.157 ServerApp] Saving carousel.ipynb
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:10:22.075 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel-MUSE.ipynb
+[I 2026-04-10 08:10:22.104 ServerApp] Saving carousel-MUSE.ipynb
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:12:50.764 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:12:50.804 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:12:57.603 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:12:57.635 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:13:00.655 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:13:00.690 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:13:19.539 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:13:19.568 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:13:27.262 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:13:27.291 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:14:21.688 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:14:21.716 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:21:52.634 ServerApp] Starting buffering for 693516d8-81c1-445b-ab55-7d3822b91189:ee1d4dae-5922-4b1c-a751-9d543cd091df
+[W 2026-04-10 08:21:54.409 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-04-10 08:21:54.521 ServerApp] Connecting to kernel 693516d8-81c1-445b-ab55-7d3822b91189.
+[I 2026-04-10 08:21:54.948 ServerApp] Starting buffering for 693516d8-81c1-445b-ab55-7d3822b91189:fa9e2eda-49c1-4ce0-b750-ce258915ab8b
+[W 2026-04-10 08:21:56.807 ServerApp] Notebook global/homes/c/chaseg/sean-carousel/carousel.ipynb is not trusted
+[I 2026-04-10 08:21:57.552 ServerApp] Connecting to kernel 693516d8-81c1-445b-ab55-7d3822b91189.
+[I 2026-04-10 08:21:57.553 ServerApp] Discarding 2 buffered messages for 693516d8-81c1-445b-ab55-7d3822b91189:fa9e2eda-49c1-4ce0-b750-ce258915ab8b
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:22:38.878 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:22:38.908 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:23:35.919 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:23:35.947 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:27:39.109 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:27:39.137 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:28:08.749 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:28:08.777 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:30:09.108 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:30:09.136 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:30:10.026 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:30:10.060 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:30:27.542 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:30:27.571 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 08:30:58.044 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:30:58.079 ServerApp] Saving carousel.ipynb
+[W 2026-04-10 08:31:59.634 ServerApp] Notebook global/homes/c/chaseg/sean-carousel/plot.ipynb is not trusted
+[I 2026-04-10 08:31:59.989 ServerApp] Kernel started: 233cd1a6-d96b-4c52-9b3d-62208464802d
+[I 2026-04-10 08:32:03.536 ServerApp] Connecting to kernel 233cd1a6-d96b-4c52-9b3d-62208464802d.
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:32:03.590 ServerApp] Connecting to kernel 233cd1a6-d96b-4c52-9b3d-62208464802d.
+[I 2026-04-10 08:32:03.633 ServerApp] Connecting to kernel 233cd1a6-d96b-4c52-9b3d-62208464802d.
+[I 2026-04-10 08:32:08.237 ServerApp] Kernel started: 12065dd4-afde-4372-8429-fa92e9aefd49
+[I 2026-04-10 08:32:08.238 ServerApp] Kernel shutdown: 233cd1a6-d96b-4c52-9b3d-62208464802d
+[I 2026-04-10 08:32:13.063 ServerApp] Connecting to kernel 12065dd4-afde-4372-8429-fa92e9aefd49.
+2026-04-10 08:32:31.910296: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775835151.925435 1526596 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775835151.930312 1526596 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775835151.943715 1526596 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775835151.943727 1526596 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775835151.943729 1526596 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775835151.943731 1526596 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 08:32:58.328 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:32:58.362 ServerApp] Saving carousel.ipynb
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:33:45.575 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/plot.ipynb
+[I 2026-04-10 08:33:45.606 ServerApp] Saving plot.ipynb
+2026-04-10 08:35:14,237 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835312130 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835312130', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:35:14.247 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+2026-04-10 08:35:14,251 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835312131 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835312131', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:35:14.251 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+2026-04-10 08:35:18,545 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835316287 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835316287', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:35:18.546 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 08:35:46.175 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/plot.ipynb
+[I 2026-04-10 08:35:46.205 ServerApp] Saving plot.ipynb
+[I 2026-04-10 08:35:48.328 ServerApp] Kernel restarted: 12065dd4-afde-4372-8429-fa92e9aefd49
+[I 2026-04-10 08:35:48.341 ServerApp] Starting buffering for 12065dd4-afde-4372-8429-fa92e9aefd49:c3dd4fd2-194d-489c-a728-1035ef637d80
+[I 2026-04-10 08:35:48.393 ServerApp] Connecting to kernel 12065dd4-afde-4372-8429-fa92e9aefd49.
+[I 2026-04-10 08:35:48.393 ServerApp] Restoring connection for 12065dd4-afde-4372-8429-fa92e9aefd49:c3dd4fd2-194d-489c-a728-1035ef637d80
+2026-04-10 08:35:51,742 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835349636 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835349636', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:35:51.742 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:35:52.904 ServerApp] Nudge: attempt 10 on kernel 12065dd4-afde-4372-8429-fa92e9aefd49
+[I 2026-04-10 08:36:01.077 ServerApp] New terminal with automatic name: 1
+[I 2026-04-10 08:36:01.078 ServerApp] Culling terminals with inactivity > 64800 seconds at 300 second intervals ...
+2026-04-10 08:36:12.386004: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775835372.402917 1528369 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775835372.409966 1528369 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775835372.425202 1528369 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775835372.425216 1528369 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775835372.425219 1528369 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775835372.425221 1528369 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 08:36:57.933 ServerApp] Kernel interrupted: 12065dd4-afde-4372-8429-fa92e9aefd49
+2026-04-10 08:37:25,274 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835443160 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835443160', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:37:25.275 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[I 2026-04-10 08:37:47.099 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/plot.ipynb
+[I 2026-04-10 08:37:47.139 ServerApp] Saving plot.ipynb
+2026-04-10 08:38:04,789 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835482678 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835482678', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:38:04.791 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+2026-04-10 08:38:06,343 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835484235 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835484235', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:38:06.344 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+2026-04-10 08:38:59,509 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835537397 (10.42.5.17)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775835537397', version='HTTP/1.1', remote_ip='10.42.5.17')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 08:38:59.509 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[I 2026-04-10 08:58:02.174 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 08:58:02.206 ServerApp] Saving carousel.ipynb
+[I 2026-04-10 09:00:31.636 ServerApp] Starting buffering for 12065dd4-afde-4372-8429-fa92e9aefd49:c3dd4fd2-194d-489c-a728-1035ef637d80
+[I 2026-04-10 09:00:31.637 ServerApp] Starting buffering for 693516d8-81c1-445b-ab55-7d3822b91189:6dfed017-1afd-40c7-a774-020cb4e2d9a8
+[I 2026-04-10 11:01:13.628 ServerApp] Connecting to kernel 12065dd4-afde-4372-8429-fa92e9aefd49.
+[I 2026-04-10 11:01:13.629 ServerApp] Restoring connection for 12065dd4-afde-4372-8429-fa92e9aefd49:c3dd4fd2-194d-489c-a728-1035ef637d80
+[I 2026-04-10 11:01:22.255 ServerApp] Connecting to kernel 693516d8-81c1-445b-ab55-7d3822b91189.
+[I 2026-04-10 11:01:22.255 ServerApp] Restoring connection for 693516d8-81c1-445b-ab55-7d3822b91189:6dfed017-1afd-40c7-a774-020cb4e2d9a8
+2026-04-10 11:05:00,029 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775844297728 (10.42.6.196)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775844297728', version='HTTP/1.1', remote_ip='10.42.6.196')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 11:05:00.042 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+2026-04-10 11:05:02,183 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775844299875 (10.42.6.196)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/api/contents/global/homes/e/evanod?content=1&hash=0&1775844299875', version='HTTP/1.1', remote_ip='10.42.6.196')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+    self.contents_manager.get(
+TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+    return await out
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+    self.contents_manager.get(
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+    return self.super.get(path, content, type, format)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+    model = self._dir_model(path, content=content)
+  File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+    for name in os.listdir(os_dir):
+PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[W 2026-04-10 11:05:02.183 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 454, in get
+        model = self._dir_model(path, content=content)
+      File "/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 299, in _dir_model
+        for name in os.listdir(os_dir):
+    PermissionError: [Errno 13] Permission denied: '/global/homes/e/evanod'
+[I 2026-04-10 11:05:17.713 ServerApp] New terminal with automatic name: 2
+[I 2026-04-10 11:05:17.949 ServerApp] Saving file at /global/homes/c/chaseg/sean-carousel/carousel.ipynb
+[I 2026-04-10 11:05:17.993 ServerApp] Saving carousel.ipynb
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 11:11:42.195 ServerApp] Kernel started: 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[I 2026-04-10 11:11:57.095 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 11:12:49.062 ServerApp] Kernel started: f5a7fc5a-d301-4c76-b962-08e601f12674
+[I 2026-04-10 11:12:58.042 ServerApp] Connecting to kernel f5a7fc5a-d301-4c76-b962-08e601f12674.
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-10 11:13:06.541 ServerApp] Starting buffering for f5a7fc5a-d301-4c76-b962-08e601f12674:7a58756f-e50a-4e7d-8d8d-86ea1a1f79b6
+[I 2026-04-10 11:13:06.542 ServerApp] Kernel shutdown: f5a7fc5a-d301-4c76-b962-08e601f12674
+[I 2026-04-10 11:13:26.824 ServerApp] Kernel restarted: 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[I 2026-04-10 11:13:26.953 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:13:26.955 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 11:13:26.956 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:13:27.407 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:13:27.440 ServerApp] Saving desi238-nuts.ipynb
+[W 2026-04-10 11:13:31.527 ServerApp] Nudge: attempt 10 on kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+2026-04-10 11:13:45.093418: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775844825.109203 1546584 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775844825.114153 1546584 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775844825.128828 1546584 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775844825.128840 1546584 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775844825.128843 1546584 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775844825.128845 1546584 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 11:15:28.231 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:15:28.252 ServerApp] Saving desi238-nuts.ipynb
+E0410 11:16:22.851733 1546584 cuda_blas.cc:196] failed to create cublas handle: the resource allocation failed
+E0410 11:16:22.851781 1546584 cuda_blas.cc:199] Failure to initialize cublas may be due to OOM (cublas needs some free memory when you initialize it, and your deep-learning framework may have preallocated more than its fair share), or may be because this binary was not built with support for the GPU in your machine.
+2026-04-10 11:16:23.733147: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 79.50MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:16:24.291492: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:16:24.296052: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:16:24.431038: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:16:24.437190: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+E0410 11:16:33.165956 1546998 pjrt_stream_executor_client.cc:2916] Execution of replica 0 failed: INTERNAL: Failed to allocate 20000000 bytes for new constant
+F0410 11:16:43.166064 1546584 pjrt_stream_executor_client.cc:3097] Replicated computation launch failed, but not all replicas terminated. Aborting process to work around deadlock. Failure message (there may have been multiple failures, see the error log for all failures): 
+
+Failed to allocate 20000000 bytes for new constant
+[I 2026-04-10 11:17:05.815 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2026-04-10 11:17:05.816 ServerApp] kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681 restarted
+[I 2026-04-10 11:17:05.826 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:17:05.864 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 11:17:05.864 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[W 2026-04-10 11:17:10.374 ServerApp] Nudge: attempt 10 on kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[I 2026-04-10 11:17:29.248 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:17:29.270 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 11:18:23.868195: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775845103.884975 1547816 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775845103.890478 1547816 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775845103.905775 1547816 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775845103.905789 1547816 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775845103.905792 1547816 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775845103.905794 1547816 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 11:19:30.234 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:19:30.256 ServerApp] Saving desi238-nuts.ipynb
+E0410 11:20:48.568055 1547816 cuda_blas.cc:196] failed to create cublas handle: the resource allocation failed
+E0410 11:20:48.568110 1547816 cuda_blas.cc:199] Failure to initialize cublas may be due to OOM (cublas needs some free memory when you initialize it, and your deep-learning framework may have preallocated more than its fair share), or may be because this binary was not built with support for the GPU in your machine.
+2026-04-10 11:20:49.155646: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 79.50MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:20:49.696635: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:20:49.701808: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:20:49.788967: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+2026-04-10 11:20:49.793754: W external/xla/xla/tsl/framework/bfc_allocator.cc:310] Allocator (GPU_0_bfc) ran out of memory trying to allocate 168.76MiB with freed_by_count=0. The caller indicates that this is not a failure, but this may mean that there could be performance gains if more memory were available.
+E0410 11:20:58.489642 1548231 pjrt_stream_executor_client.cc:2916] Execution of replica 0 failed: INTERNAL: Failed to allocate 20000000 bytes for new constant
+F0410 11:21:08.489758 1547816 pjrt_stream_executor_client.cc:3097] Replicated computation launch failed, but not all replicas terminated. Aborting process to work around deadlock. Failure message (there may have been multiple failures, see the error log for all failures): 
+
+Failed to allocate 20000000 bytes for new constant
+[I 2026-04-10 11:21:15.603 ServerApp] Kernel shutdown: 12065dd4-afde-4372-8429-fa92e9aefd49
+[I 2026-04-10 11:21:16.758 ServerApp] Kernel shutdown: 693516d8-81c1-445b-ab55-7d3822b91189
+[I 2026-04-10 11:21:32.851 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2026-04-10 11:21:32.851 ServerApp] kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681 restarted
+[I 2026-04-10 11:21:32.861 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:21:32.906 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 11:21:32.906 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+Exception ignored in: <coroutine object Kernel.dispatch_control at 0x7f76f062e7a0>
+Traceback (most recent call last):
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/warnings.py", line 555, in _warn_unawaited_coroutine
+    warn(msg, category=RuntimeWarning, stacklevel=2, source=coro)
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/warnings.py", line 115, in _showwarnmsg
+    _showwarnmsg_impl(msg)
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/warnings.py", line 30, in _showwarnmsg_impl
+    file.write(text)
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/ipykernel/iostream.py", line 760, in write
+    self._schedule_flush()
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/ipykernel/iostream.py", line 656, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/ipykernel/iostream.py", line 341, in schedule
+    f()
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/ipykernel/iostream.py", line 654, in _schedule_in_thread
+    self._io_loop.call_later(self.flush_interval, self._flush)
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/tornado/ioloop.py", line 617, in call_later
+    return self.call_at(self.time() + delay, callback, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/tornado/platform/asyncio.py", line 222, in call_at
+    return self.asyncio_loop.call_later(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/asyncio/base_events.py", line 765, in call_later
+    timer = self.call_at(self.time() + delay, callback, *args,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/asyncio/base_events.py", line 778, in call_at
+    self._check_closed()
+  File "/global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/asyncio/base_events.py", line 545, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Task was destroyed but it is pending!
+task: <Task pending name='Task-17' coro=<Kernel.dispatch_control() running at /global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/ipykernel/kernelbase.py:344> cb=[ZMQStream._run_callback.<locals>._log_error() at /global/homes/c/chaseg/.conda/envs/gigalens/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py:563]>
+[I 2026-04-10 11:21:41.639 ServerApp] Kernel restarted: 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[I 2026-04-10 11:21:41.648 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:21:41.714 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 11:21:41.714 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[W 2026-04-10 11:21:46.224 ServerApp] Nudge: attempt 10 on kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681
+2026-04-10 11:21:56.458464: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775845316.475415 1548736 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775845316.480972 1548736 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775845316.496375 1548736 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775845316.496389 1548736 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775845316.496391 1548736 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775845316.496393 1548736 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 11:23:31.241 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:23:31.265 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 11:24:30.393598: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:32.250927: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.85740634s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:33.251072: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:37.821828: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 5.570835276s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:38.917880: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:39.317544: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.399742076s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:40.317675: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:24:41.293284: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.975700352s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:25:59.549329: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:25:59.691940: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.142695655s
+Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:00.853349: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:01.966532: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.113268516s
+Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:02.966674: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:13.160854: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 11.194253659s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:14.161103: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:35.374168: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 22.213144813s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:36.702162: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:41.263498: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 5.561410366s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:42.263700: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:26:49.129030: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 7.865408102s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:11.279616: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-10 11:27:11.279648: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-10 11:27:14.512761: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:14.571119: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.058474172s
+Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:15.571246: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:20.170011: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 5.598854147s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:21.170157: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:31.282087: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 11.112009147s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:32.445308: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-10 11:27:33.304 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:27:33.330 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 11:27:34.228599: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.783372801s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:35.228733: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:27:38.163322: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 3.934672704s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1548736/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 11:31:00.054783: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+[I 2026-04-10 11:31:35.296 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:31:35.333 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 11:32:12.101108: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+[I 2026-04-10 11:33:36.296 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:33:36.322 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:37:36.785 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:37:36.808 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:39:37.106 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:39:37.129 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:41:37.428 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:41:37.452 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:42:25.994 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:42:26.021 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 11:42:51.444628: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+[I 2026-04-10 11:44:27.410 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:44:27.439 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:46:31.059 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:46:31.084 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:48:32.292 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 11:48:32.318 ServerApp] Saving desi238-nuts.ipynb
+[I 2026-04-10 11:53:23.523 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:53:25.244 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 11:53:25.245 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 11:53:29.950 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 12:01:06.520 ServerApp] Kernel interrupted: 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[I 2026-04-10 12:01:24.115 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 12:01:24.115 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 12:02:24.307 ServerApp] Kernel restarted: 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[I 2026-04-10 12:02:24.326 ServerApp] Starting buffering for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[I 2026-04-10 12:02:24.373 ServerApp] Connecting to kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681.
+[I 2026-04-10 12:02:24.374 ServerApp] Restoring connection for 0c57aaec-8683-4ca7-96c1-bc18c6211681:7fc40992-0b61-41a2-bddf-d92fe4358765
+[W 2026-04-10 12:02:28.885 ServerApp] Nudge: attempt 10 on kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681
+[W 2026-04-10 12:02:33.895 ServerApp] Nudge: attempt 20 on kernel 0c57aaec-8683-4ca7-96c1-bc18c6211681
+2026-04-10 12:02:43.254144: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775847763.269400 1555040 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775847763.274384 1555040 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775847763.288214 1555040 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775847763.288226 1555040 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775847763.288228 1555040 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775847763.288230 1555040 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-10 12:02:54.813 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 12:02:54.836 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 12:05:46.436030: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:48.248958: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.813036567s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:49.249127: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:53.806373: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 5.557345195s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:54.889007: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:55.282415: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.393494033s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:56.282552: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:05:57.251311: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.968853501s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1288025284.py" source_line=127}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-10 12:06:55.364 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 12:06:55.386 ServerApp] Saving desi238-nuts.ipynb
+2026-04-10 12:07:15.684895: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:15.827630: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.142834731s
+Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:16.989005: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:18.104418: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.11550238s
+Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:19.104574: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:29.305472: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 11.200978636s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:30.305732: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:51.518572: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 22.212931302s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:52.842980: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:57.414155: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 5.571265765s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:07:58.414342: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:05.274868: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 7.860617981s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[500,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.96, %constant.7836), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(log_prob)/jit(main)/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/2104219631.py" source_line=1}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:27.050323: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-10 12:08:27.050353: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-10 12:08:30.323297: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:30.381968: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.058763802s
+Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:31.382121: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:35.980637: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 5.598618927s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:36.981006: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:47.090167: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 11.109249193s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:48.253387: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:50.036619: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.783309181s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:51.036740: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-10 12:08:53.976245: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 3.939567485s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.83, %constant.11408), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_svi)/jit(main)/while/body/jit(shmap_body)/jit(neg_elbo)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_1555040/1250268184.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-10 12:08:56.387 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238-nuts.ipynb
+[I 2026-04-10 12:08:56.407 ServerApp] Saving desi238-nuts.ipynb
+/var/spool/slurmd/job51357801/slurm_script: line 47: 1522506 Killed                  /global/common/software/nersc9/jupyter/ex/26-03/nersc-infra/jupyter-launcher.sh /global/common/software/nersc9/jupyter/ex/26-03/bin/python -I /global/common/software/nersc9/jupyter/ex/26-03/bin/batchspawner-singleuser /global/common/software/nersc9/jupyter/ex/26-03/bin/jupyterhub-singleuser --transport=ipc
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

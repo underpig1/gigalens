@@ -1,0 +1,477 @@
+2026-04-03T09:05:30-07:00 LAUNCH
+[I 2026-04-03 09:05:37.874 ServerApp] Extension package dask_labextension took 1.8893s to import
+[W 2026-04-03 09:05:37.874 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-04-03 09:05:37.996 ServerApp] Extension package jupyter_lsp took 0.1204s to import
+[I 2026-04-03 09:05:38.731 ServerApp] Extension package jupyterlab_git took 0.1616s to import
+[I 2026-04-03 09:05:40.496 ServerApp] Extension package jupyterlab_h5web took 1.7640s to import
+[I 2026-04-03 09:05:40.872 ServerApp] Extension package jupyterlab_jupytext took 0.3756s to import
+[W 2026-04-03 09:05:40.997 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-04-03 09:05:41.009 ServerApp] dask_labextension | extension was successfully linked.
+[I 2026-04-03 09:05:41.010 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-04-03 09:05:41.010 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-04-03 09:05:41.019 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2026-04-03 09:05:41.020 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2026-04-03 09:05:41.027 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-04-03 09:05:41.027 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2026-04-03 09:05:41.028 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/c/chaseg
+[I 2026-04-03 09:05:41.031 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-04-03 09:05:41.036 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-04-03 09:05:41.039 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-04-03 09:05:41.039 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-04-03 09:05:41.040 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-04-03 09:05:41.040 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2026-04-03 09:05:41.040 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2026-04-03 09:05:41.040 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2026-04-03 09:05:41.040 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2026-04-03 09:05:41.045 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-04-03 09:05:41.047 ServerApp] nbclassic | extension was successfully linked.
+[I 2026-04-03 09:05:41.047 ServerApp] nbdime | extension was successfully linked.
+[W 2026-04-03 09:05:41.052 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-04-03 09:05:41.054 ServerApp] notebook | extension was successfully linked.
+[I 2026-04-03 09:05:41.056 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-c02a989f-d143-46e9-9099-03c8a88b0e24/jupyter_cookie_secret
+[I 2026-04-03 09:05:41.090 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-04-03 09:05:41.176 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-04-03 09:05:41.177 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2026-04-03 09:05:41.179 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-04-03 09:05:41.180 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-04-03 09:05:41.181 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2026-04-03 09:05:41.223 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2026-04-03 09:05:41.226 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-04-03 09:05:41.243 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-04-03 09:05:41.244 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-04-03 09:05:41.485 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-04-03 09:05:41.602 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/site-packages/jupyterlab
+[I 2026-04-03 09:05:41.603 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/26-03/share/jupyter/lab
+[I 2026-04-03 09:05:41.605 LabApp] Extension Manager is 'pypi'.
+[I 2026-04-03 09:05:41.626 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-04-03 09:05:41.626 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-04-03 09:05:41.627 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-04-03 09:05:41.633 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-04-03 09:05:41.891 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2026-04-03 09:05:41.894 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2026-04-03 09:05:41.895 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2026-04-03 09:05:41.895 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2026-04-03 09:05:41.896 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2026-04-03 09:05:41.897 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2026-04-03 09:05:41.897 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+[I 2026-04-03 09:05:41.898 ServerApp] Registered jupyterlab_wall server extension
+[I 2026-04-03 09:05:41.899 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2026-04-03 09:05:41.937 ServerApp] nbclassic | extension was successfully loaded.
+[I 2026-04-03 09:05:42.246 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-04-03 09:05:42.339 ServerApp] notebook | extension was successfully loaded.
+[I 2026-04-03 09:05:42.339 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2026-04-03 09:05:42.340 ServerApp] Serving notebooks from local directory: /
+[I 2026-04-03 09:05:42.340 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2026-04-03 09:05:42.341 ServerApp] http://nid001213:33363/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-04-03 09:05:42.341 ServerApp]     http://127.0.0.1:33363/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-04-03 09:05:42.341 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-04-03 09:06:04.635 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-04-03 09:06:04.852 ServerApp] Loaded Jupytext configuration file at /global/common/software/nersc9/jupyter/ex/26-03/etc/jupytext/jupytext.toml
+[I 2026-04-03 09:06:06.506 ServerApp] New terminal with automatic name: 1
+[I 2026-04-03 09:06:06.507 ServerApp] Culling terminals with inactivity > 64800 seconds at 300 second intervals ...
+[W 2026-04-03 09:06:07.907 ServerApp] Notebook global/homes/c/chaseg/carousel/carousel.ipynb is not trusted
+[I 2026-04-03 09:06:08.873 ServerApp] Kernel started: 9a9f8efe-422b-4c9c-821f-ce2584c5d5bf
+[I 2026-04-03 09:06:08.873 ServerApp] Culling kernels with idle durations > 64800 seconds at 300 second intervals ...
+[I 2026-04-03 09:06:16.746 ServerApp] Connecting to kernel 9a9f8efe-422b-4c9c-821f-ce2584c5d5bf.
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-03 09:06:35.392 ServerApp] Connecting to kernel 9a9f8efe-422b-4c9c-821f-ce2584c5d5bf.
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-03 09:06:39.470 ServerApp] Starting buffering for 9a9f8efe-422b-4c9c-821f-ce2584c5d5bf:b927ead2-6dae-4edb-8358-8f762f8ec28a
+[I 2026-04-03 09:06:39.475 ServerApp] Kernel shutdown: 9a9f8efe-422b-4c9c-821f-ce2584c5d5bf
+[I 2026-04-03 09:14:00.460 ServerApp] Creating new file in /global/homes/c/chaseg/nuts
+[I 2026-04-03 09:14:09.162 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:14:35.746 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:14:40.689 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:14:51.289 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:14:59.024 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:16:15.394 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:16:32.620 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:16:43.557 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:16:47.326 ServerApp] Kernel started: fe08156b-8908-46e4-b58d-0d3a9520df72
+[I 2026-04-03 09:17:06.847 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+[I 2026-04-03 09:17:06.892 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+[I 2026-04-03 09:17:06.933 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+2026-04-03 09:17:18.577953: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775233038.900202  407436 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775233038.963102  407436 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775233039.619548  407436 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775233039.619580  407436 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775233039.619584  407436 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775233039.619588  407436 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-03 09:18:36.905 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:18:36.969 ServerApp] Saving nuts.ipynb
+2026-04-03 09:19:37.358734: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+[I 2026-04-03 09:20:41.441 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:20:41.570 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:22:44.396 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:22:44.666 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:25:00.741 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:25:23.325 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:27:23.706 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[W 2026-04-03 09:28:19.868 ServerApp] Replacing stale connection: fe08156b-8908-46e4-b58d-0d3a9520df72:ff03480f-cd75-4828-85db-6e2f389002a8
+[I 2026-04-03 09:28:19.869 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+[W 2026-04-03 09:28:19.874 ServerApp] 
+[W 2026-04-03 09:28:19.875 ServerApp] 
+[W 2026-04-03 09:28:19.876 ServerApp] 
+[W 2026-04-03 09:28:19.878 ServerApp] 
+[W 2026-04-03 09:28:20.128 ServerApp] 
+[W 2026-04-03 09:28:20.130 ServerApp] 
+[W 2026-04-03 09:28:20.131 ServerApp] 
+[W 2026-04-03 09:28:20.133 ServerApp] 
+[W 2026-04-03 09:28:20.134 ServerApp] 
+[W 2026-04-03 09:28:20.135 ServerApp] 
+[W 2026-04-03 09:28:20.136 ServerApp] 
+[W 2026-04-03 09:28:20.137 ServerApp] 
+[W 2026-04-03 09:28:20.139 ServerApp] 
+[W 2026-04-03 09:28:20.305 ServerApp] 
+[W 2026-04-03 09:28:20.305 ServerApp] 
+[W 2026-04-03 09:29:07.791 TerminalsExtensionApp] WebSocket ping timeout after 119928 ms.
+[I 2026-04-03 09:29:24.594 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:30:13.464 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:30:24.538 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:30:59.023 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:30:59.056 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:31:39.570 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:32:13.132 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:33:03.681 ServerApp] Saving file at /global/homes/c/chaseg/carousel/carousel.slurm
+[I 2026-04-03 09:33:44.955 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:33:56.338 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:34:23.218 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:34:47.104 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:35:43.215 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:35:45.996 ServerApp] Saving file at /global/homes/c/chaseg/carousel/carousel.slurm
+[I 2026-04-03 09:35:46.072 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:35:50.221 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:36:09.613 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:37:17.441 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:37:21.255 ServerApp] Saving file at /global/homes/c/chaseg/carousel/carousel.slurm
+[I 2026-04-03 09:37:21.318 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:37:26.767 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:39:26.065 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:40:19.062 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:41:47.969 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:43:01.134 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:43:43.172 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:43:43.888 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:44:02.916 ServerApp] New terminal with automatic name: 2
+[I 2026-04-03 09:44:06.691 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:44:06.726 ServerApp] Saving file at /global/homes/c/chaseg/nuts/window_adaptation.py
+[I 2026-04-03 09:45:27.733 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 09:46:59.255 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:46:59.284 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:47:05.108 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:47:05.139 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:48:13.290 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:48:13.317 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:52:08.956 ServerApp] Starting buffering for fe08156b-8908-46e4-b58d-0d3a9520df72:ff03480f-cd75-4828-85db-6e2f389002a8
+[I 2026-04-03 09:52:17.909 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+[I 2026-04-03 09:52:17.910 ServerApp] Restoring connection for fe08156b-8908-46e4-b58d-0d3a9520df72:ff03480f-cd75-4828-85db-6e2f389002a8
+[I 2026-04-03 09:52:30.750 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:52:30.776 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:54:32.331 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:54:32.372 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 09:56:34.324 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 09:56:34.350 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 10:00:32.274 ServerApp] Kernel started: f6d0dd28-46bf-4716-8273-4e43c9273df8
+[I 2026-04-03 10:00:43.154 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:00:43.180 ServerApp] Saving system65.ipynb
+[I 2026-04-03 10:00:45.536 ServerApp] Connecting to kernel f6d0dd28-46bf-4716-8273-4e43c9273df8.
+[I 2026-04-03 10:01:11.421 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:01:11.450 ServerApp] Saving system65.ipynb
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-03 10:01:20.891 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:01:20.931 ServerApp] Saving system65.ipynb
+[I 2026-04-03 10:02:06.816 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:02:06.854 ServerApp] Saving system65.ipynb
+[I 2026-04-03 10:02:58.571 ServerApp] Kernel restarted: f6d0dd28-46bf-4716-8273-4e43c9273df8
+[I 2026-04-03 10:02:58.583 ServerApp] Starting buffering for f6d0dd28-46bf-4716-8273-4e43c9273df8:aae2cefa-f3fd-42b7-87df-6df875348627
+[I 2026-04-03 10:02:58.614 ServerApp] Connecting to kernel f6d0dd28-46bf-4716-8273-4e43c9273df8.
+[I 2026-04-03 10:02:58.614 ServerApp] Restoring connection for f6d0dd28-46bf-4716-8273-4e43c9273df8:aae2cefa-f3fd-42b7-87df-6df875348627
+[W 2026-04-03 10:03:03.124 ServerApp] Nudge: attempt 10 on kernel f6d0dd28-46bf-4716-8273-4e43c9273df8
+2026-04-03 10:03:11.479151: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775235791.494754  415725 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775235791.500233  415725 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775235791.513915  415725 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775235791.513930  415725 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775235791.513932  415725 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775235791.513934  415725 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-03 10:04:07.052 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:04:07.083 ServerApp] Saving system65.ipynb
+[I 2026-04-03 10:05:15.112 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 10:05:19.265 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 10:05:34.669 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 10:05:36.249 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:05:36.326 ServerApp] Saving system65.ipynb
+2026-04-03 10:05:42.751079: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 10:05:46.042379: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:46.682436: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.640213642s
+Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:47.682578: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:49.558939: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.876452268s
+Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:50.782041: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:51.774303: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.992384468s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:52.774503: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:52.892061: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 10:05:53.529935: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 10:05:53.542006: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.767644055s
+Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:05:54.542197: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=5,k5=2,k14=6} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:02.549535: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 9.007482234s
+Trying algorithm eng46{k2=5,k5=2,k14=6} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:03.549687: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:18.494253: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 15.944644541s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:19.494621: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=0,k5=2,k14=3} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:27.548333: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 9.053938771s
+Trying algorithm eng46{k2=0,k5=2,k14=3} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:28.548553: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:46.540959: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 18.992490278s
+Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:06:47.541208: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 10:07:02.223187: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 15.682083822s
+Trying algorithm eng46{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-03 10:07:36.691 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:07:36.746 ServerApp] Saving system65.ipynb
+[I 2026-04-03 10:29:01.814 ServerApp] Kernel interrupted: f6d0dd28-46bf-4716-8273-4e43c9273df8
+[I 2026-04-03 10:29:48.673 ServerApp] Kernel shutdown: f6d0dd28-46bf-4716-8273-4e43c9273df8
+[I 2026-04-03 10:31:38.470 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 10:31:38.503 ServerApp] Saving system65.ipynb
+[I 2026-04-03 10:38:35.400 ServerApp] Starting buffering for fe08156b-8908-46e4-b58d-0d3a9520df72:ff03480f-cd75-4828-85db-6e2f389002a8
+[I 2026-04-03 11:04:52.320 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+[I 2026-04-03 11:04:52.320 ServerApp] Restoring connection for fe08156b-8908-46e4-b58d-0d3a9520df72:ff03480f-cd75-4828-85db-6e2f389002a8
+[W 2026-04-03 11:05:06.888 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-04-03 11:05:07.064 ServerApp] Connecting to kernel fe08156b-8908-46e4-b58d-0d3a9520df72.
+[I 2026-04-03 11:06:12.849 ServerApp] Kernel interrupted: fe08156b-8908-46e4-b58d-0d3a9520df72
+[I 2026-04-03 11:06:17.536 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:06:17.565 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:06:21.922 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:06:21.954 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:06:34.780 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:06:34.880 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:08:39.246 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:08:39.276 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:09:50.266 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:09:50.324 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:10:39.086 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:10:39.182 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:12:45.985 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:12:46.041 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:14:49.023 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:14:49.099 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:16:27.694 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+[I 2026-04-03 11:16:31.043 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts_multi_2.py
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-03 11:18:52.472 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:18:52.548 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:19:30.995 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:19:31.079 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:21:35.569 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:21:35.637 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:23:43.704 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 11:23:43.755 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 11:24:58.356 ServerApp] Kernel started: 39c9680d-0db4-407a-b529-e04a2a887c0b
+[I 2026-04-03 11:25:19.439 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+2026-04-03 11:25:31.804600: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775240731.819512  427563 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775240731.824374  427563 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775240731.837611  427563 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775240731.837622  427563 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775240731.837624  427563 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775240731.837626  427563 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-03 11:26:28.425 ServerApp] Kernel shutdown: fe08156b-8908-46e4-b58d-0d3a9520df72
+[I 2026-04-03 11:26:35.736 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:26:35.824 ServerApp] Saving system65.ipynb
+[I 2026-04-03 11:26:44.289 ServerApp] Kernel restarted: 39c9680d-0db4-407a-b529-e04a2a887c0b
+[I 2026-04-03 11:26:44.308 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 11:26:44.343 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 11:26:44.343 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[W 2026-04-03 11:26:48.855 ServerApp] Nudge: attempt 10 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[W 2026-04-03 11:26:53.867 ServerApp] Nudge: attempt 20 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[W 2026-04-03 11:26:58.879 ServerApp] Nudge: attempt 30 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[W 2026-04-03 11:27:03.952 ServerApp] Nudge: attempt 40 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+2026-04-03 11:27:17.322117: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775240837.337314  427717 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775240837.342401  427717 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775240837.356160  427717 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775240837.356172  427717 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775240837.356174  427717 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775240837.356176  427717 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-03 11:28:36.224 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:28:36.302 ServerApp] Saving system65.ipynb
+[I 2026-04-03 11:32:36.697 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:32:36.780 ServerApp] Saving system65.ipynb
+2026-04-03 11:32:38.742137: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 11:32:41.970064: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:42.606523: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.636581521s
+Trying algorithm eng28{k2=3,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:43.606677: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:45.488852: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.882292316s
+Trying algorithm eng1{k2=4,k3=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:46.716204: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:47.704983: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.988875691s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:48.705153: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:48.817758: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 11:32:49.452321: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 11:32:49.464328: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.75929258s
+Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:50.464533: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=5,k5=2,k14=6} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:58.472051: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 9.007625164s
+Trying algorithm eng46{k2=5,k5=2,k14=6} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:32:59.472313: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:14.414486: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 15.942296953s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:15.414712: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=0,k5=2,k14=3} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:23.466907: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 9.052287147s
+Trying algorithm eng46{k2=0,k5=2,k14=3} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:24.467110: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:42.454740: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 18.987701749s
+Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:43.454977: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:33:58.133517: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 15.678648705s
+Trying algorithm eng46{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[256,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.990, %constant.23446), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-03 11:34:37.517 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:34:37.595 ServerApp] Saving system65.ipynb
+[I 2026-04-03 11:36:32.772 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:36:32.827 ServerApp] Saving system65.ipynb
+[I 2026-04-03 11:40:20.139 ServerApp] Kernel restarted: 39c9680d-0db4-407a-b529-e04a2a887c0b
+[I 2026-04-03 11:40:20.171 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 11:40:20.223 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 11:40:20.223 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[W 2026-04-03 11:40:24.734 ServerApp] Nudge: attempt 10 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[W 2026-04-03 11:40:29.749 ServerApp] Nudge: attempt 20 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[I 2026-04-03 11:40:33.378 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:40:33.422 ServerApp] Saving system65.ipynb
+2026-04-03 11:40:35.574632: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775241635.589609  430043 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775241635.594549  430043 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775241635.608168  430043 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775241635.608179  430043 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775241635.608182  430043 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775241635.608183  430043 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2026-04-03 11:42:12.198835: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 11:42:12.198980: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 11:42:12.199009: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 11:42:12.199035: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 11:42:12.199044: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 11:42:15.299223: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 11:42:15.455166: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:42:15.800477: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 11:42:15.809688: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.354687124s
+Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:42:17.048057: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:42:17.050490: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.002629595s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:42:19.190167: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 11:42:19.380721: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.190643489s
+Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-03 11:42:34.441 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 11:42:34.481 ServerApp] Saving system65.ipynb
+[I 2026-04-03 12:08:24.346 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:14:16.341 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 12:14:16.341 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:24:13.456 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:24:43.370 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 12:24:43.371 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:25:05.379 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:27:24.367 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 12:27:24.368 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:42:53.780 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:42:57.127 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 12:42:57.127 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 12:53:59.299 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 13:51:43.455 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 13:51:43.455 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[W 2026-04-03 14:10:23.117 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-04-03 14:10:23.268 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 14:10:45.911 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:10:45.969 ServerApp] Saving system65.ipynb
+[I 2026-04-03 14:10:53.283 ServerApp] Kernel restarted: 39c9680d-0db4-407a-b529-e04a2a887c0b
+[I 2026-04-03 14:10:53.393 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 14:10:53.423 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 14:10:53.425 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[W 2026-04-03 14:10:57.938 ServerApp] Nudge: attempt 10 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[W 2026-04-03 14:11:02.989 ServerApp] Nudge: attempt 20 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+[W 2026-04-03 14:11:08.000 ServerApp] Nudge: attempt 30 on kernel 39c9680d-0db4-407a-b529-e04a2a887c0b
+2026-04-03 14:11:20.069341: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775250680.084688  448827 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775250680.089683  448827 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775250680.103736  448827 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775250680.103749  448827 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775250680.103751  448827 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775250680.103753  448827 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-04-03 14:12:47.519 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:12:47.595 ServerApp] Saving system65.ipynb
+2026-04-03 14:13:38.562645: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 14:13:38.562778: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 14:13:38.562807: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 14:13:38.562835: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 14:13:38.562843: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-04-03 14:13:41.723255: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 14:13:41.866644: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 14:13:42.225877: E external/xla/xla/stream_executor/cuda/cuda_timer.cc:86] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+2026-04-03 14:13:42.236971: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.370415075s
+Trying algorithm eng4{} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 14:13:43.493477: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 14:13:43.498487: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.00547481s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 14:13:45.638452: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-04-03 14:13:45.828091: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.189731284s
+Trying algorithm eng46{k2=5,k5=3,k14=4} for conv %cudnn-conv.4 = (f32[16,33,120,120]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.986, %constant.23448), window={size=29x29 pad=14_14x14_14}, dim_labels=bf01_oi01->bf01, feature_group_count=33, custom_call_target="__cudnn$convForward", metadata={op_name="pmap(warmup_device_chain)/jit(main)/vmap(jvp(jit(log_prob)))/jit(log_prob)/jit(lstsq_simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/nuts/system-65/../nuts_multi_2.py" source_line=37}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-04-03 14:14:49.698 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:14:49.813 ServerApp] Saving system65.ipynb
+[I 2026-04-03 14:22:56.923 ServerApp] Starting buffering for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 14:22:57.018 ServerApp] Connecting to kernel 39c9680d-0db4-407a-b529-e04a2a887c0b.
+[I 2026-04-03 14:22:57.018 ServerApp] Restoring connection for 39c9680d-0db4-407a-b529-e04a2a887c0b:aa1c03ef-0f46-4fc0-bc88-89236c79ef3a
+[I 2026-04-03 14:36:42.263 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:36:42.302 ServerApp] Saving system65.ipynb
+[I 2026-04-03 14:48:48.541 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:48:48.579 ServerApp] Saving system65.ipynb
+[I 2026-04-03 14:50:49.731 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:50:49.774 ServerApp] Saving system65.ipynb
+[I 2026-04-03 14:52:50.759 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 14:52:50.790 ServerApp] Saving system65.ipynb
+[I 2026-04-03 15:00:03.855 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 15:00:03.884 ServerApp] Saving system65.ipynb
+[I 2026-04-03 15:00:07.842 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 15:00:07.880 ServerApp] Saving system65.ipynb
+[I 2026-04-03 15:00:19.215 ServerApp] Kernel interrupted: 39c9680d-0db4-407a-b529-e04a2a887c0b
+/global/common/software/nersc9/jupyter/ex/26-03/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-03 15:01:43.220 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 15:01:43.256 ServerApp] Saving system65.ipynb
+[I 2026-04-03 15:03:04.280 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 15:03:04.310 ServerApp] Saving system65.ipynb
+[I 2026-04-03 15:05:04.577 ServerApp] Kernel started: 06bf426b-4b09-4248-8f9f-6cad6eb825c3
+[I 2026-04-03 15:05:05.780 ServerApp] Saving file at /global/homes/c/chaseg/nuts/nuts.ipynb
+[I 2026-04-03 15:05:05.808 ServerApp] Saving nuts.ipynb
+[I 2026-04-03 15:05:06.544 ServerApp] Saving file at /global/homes/c/chaseg/nuts/system-65/system65.ipynb
+[I 2026-04-03 15:05:06.572 ServerApp] Saving system65.ipynb
+[I 2026-04-03 15:05:10.256 ServerApp] Connecting to kernel 06bf426b-4b09-4248-8f9f-6cad6eb825c3.
+[I 2026-04-03 15:05:26.159 ServerApp] Kernel restarted: 06bf426b-4b09-4248-8f9f-6cad6eb825c3
+[I 2026-04-03 15:05:26.218 ServerApp] Starting buffering for 06bf426b-4b09-4248-8f9f-6cad6eb825c3:b9f1d503-4489-4ed9-a5c8-f7b0e5ce0cc8
+[I 2026-04-03 15:05:26.238 ServerApp] Connecting to kernel 06bf426b-4b09-4248-8f9f-6cad6eb825c3.
+[I 2026-04-03 15:05:26.239 ServerApp] Restoring connection for 06bf426b-4b09-4248-8f9f-6cad6eb825c3:b9f1d503-4489-4ed9-a5c8-f7b0e5ce0cc8
+2026-04-03 15:05:32.504804: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1775253932.519897  456315 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1775253932.524775  456315 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1775253932.538190  456315 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775253932.538202  456315 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775253932.538204  456315 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1775253932.538206  456315 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[2026-04-03T22:05:45.133] error: *** JOB 50945544 ON nid001213 CANCELLED AT 2026-04-03T22:05:45 DUE TO TIME LIMIT ***

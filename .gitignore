@@ -1,0 +1,9 @@
+linus-gigalens/
+gigalens/
+sean-carousel/
+.*
+!.gitignore
+.ipynb_checkpoints
+__pycache__
+logs/
+results/
