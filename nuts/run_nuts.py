@@ -1,5 +1,11 @@
 import jax
-# jax.distributed.initialize()
+jax.distributed.initialize(local_device_ids=None)
+
+if jax.process_index() == 0:
+    # print(f"SLURM_PROCID: {os.environ.get('SLURM_PROCID')}")
+    print(f"Visible JAX devices: {jax.devices()}")
+    print(f"Local device count: {jax.local_device_count()}")
+
 
 import tensorflow_probability.substrates.jax as tfp
 
@@ -24,9 +30,11 @@ import blackjax
 import importlib
 tfd = tfp.distributions
 import os
+jax.experimental.multihost_utils.sync_global_devices("run_start")
+
 
 from mclmc_alt import MCLMC
-from nuts_multi import NUTS
+from nuts_multi_3 import NUTS
 
 #* Define Priors
 lens_prior = tfd.JointDistributionSequential(
@@ -102,9 +110,9 @@ qz, loss_hist = model_seq.SVI(best, opt, n_vi=1000, num_steps=1500)
 
 nuts_samples = NUTS(
     model_seq=model_seq,
-    qz=qz, # only need qz if mass_matrix_adapt=False
+    q_z=qz, # only need qz if mass_matrix_adapt=False
     n_chains=16,
-    num_warmup_steps=50,
+    num_burnin_steps=50,
     num_results=50,
     # progress_bar=True,
     # multinode params
