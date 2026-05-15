@@ -25,14 +25,12 @@ def NUTS(
     process_idx = jax.process_index()
     dim = q_z.event_shape[0]
 
-    # Ensure n_chains is at least n_devices and a multiple of n_devices to avoid bs=0
     n_chains = max(n_devices, (n_chains // n_devices) * n_devices)
     chains_per_device = n_chains // n_devices
 
     lens_sim = sim.LensSimulator(
         model_seq.phys_model,
         model_seq.sim_config,
-        # The simulator should handle 1 sample per likelihood call as batching is managed by vmap
         bs=1,
     )
 
@@ -75,9 +73,9 @@ def NUTS(
     
     warmup_device_chain_pmap = pmap(warmup_device_chain, devices=local_devices)
     start = time.time()
-    if process_idx == 0: print(f'Starting burnin on {n_devices} devices...')
+    print(f'Starting burnin on {n_devices} devices...')
     local_warmup_states, local_warmup_params = warmup_device_chain_pmap(local_init_states, local_device_keys_np)
-    if process_idx == 0: print(f'Burnin took {time.time() - start:.1f}s')
+    print(f'Burnin took {time.time() - start:.1f}s')
 
     def sample_device_chain(states_device, params_device, key_device):
         keys = jax.random.split(key_device, states_device.position.shape[0])

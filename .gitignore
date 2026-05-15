@@ -7,3 +7,6 @@ sean-carousel/
 __pycache__
 logs/
 results/
+.env
+*/logs
+./pipeline_results/*
