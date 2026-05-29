@@ -10,3 +10,4 @@ results/
 .env
 */logs
 ./pipeline_results/*
+*.fits
