@@ -22,4 +22,4 @@ export NCCL_SOCKET_IFNAME=hsn  # Perlmutter's high-speed network [2][7]
 srun -c 1 --cpu_bind=cores --gpu-bind=none \
     bash -c "module load python
 conda activate gigalens
-python ./linus-gigalens/hundredsystems.py 4"
+python ./linus-gigalens/hundredsystems.py 80"

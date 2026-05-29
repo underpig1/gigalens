@@ -1,0 +1,11 @@
+{
+  "numPix": 500,
+  "deltaPix": 0.06983051505848548,
+  "exp_time": 597.694383,
+  "background_rms": 0.024747281253212534,
+  "psf_fwhm_arcsec": 0.19,
+  "ra": 90.98536495366,
+  "dec": -35.970539557157,
+  "hst_program": 16773,
+  "filter": "F140W"
+}
