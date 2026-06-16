@@ -263,34 +263,53 @@ def mams_find_L_and_step_size(
 # 5. HIGH-LEVEL WRAPPER FOR USER IMPLEMENTATION
 # =====================================================================
 
-def MAMS(model_seq, qz, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_matrix_adapt=True,
+def MAMS(model_seq, qz=None, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_matrix_adapt=True,
          init_L=None, init_step_size=None, progress_bar=False, print_adapt_params=False, seed=0):
     """
     GIGALens wrapper for Microcanonical Adaptive Monte Carlo with Momentum Subsampling (MAMS).
-    Matches MCLMC function signatures exactly.
+    Matches MCLMC/LAPS function signatures exactly.
+
+    When qz is provided chains are warm-started from the variational posterior.
+    When qz is None chains are cold-started from N(0,I) with an identity mass matrix.
+
+    n_hmc is the total chain count across all processes; each process runs n_hmc // process_count chains.
+    Returns samples of shape (num_results, n_local, dim); caller gathers across processes if needed.
     """
     lens_sim = sim.LensSimulator(model_seq.phys_model, model_seq.sim_config, bs=1)
 
     def log_prob(z):
         return model_seq.prob_model.log_prob(lens_sim, z)[0]
 
-    rng_key = jax.random.key(seed)
+    # --- Multi-process setup ---
+    n_procs  = jax.process_count()
+    proc_idx = jax.process_index()
+    n_local  = n_hmc // n_procs
+    assert n_hmc % n_procs == 0, \
+        f"n_hmc ({n_hmc}) must be divisible by process_count ({n_procs})"
+
+    rng_key = jax.random.fold_in(jax.random.key(seed), proc_idx)
     init_key, tune_key, run_key = jax.random.split(rng_key, 3)
-    n_chains = n_hmc
 
-    integrator = isokinetic_mclachlan_smart 
+    integrator = isokinetic_mclachlan_smart
 
-    init_positions = qz.sample((n_chains,), seed=init_key)
-    init_keys = jax.random.split(init_key, n_chains)
-    
+    # --- Initialize local chains ---
+    if qz is not None:
+        init_positions    = qz.sample((n_local,), seed=init_key)
+        initial_covariance = qz.covariance()
+    else:
+        one     = model_seq.prob_model.prior.sample(seed=init_key)
+        dim_map = len(model_seq.prob_model.bij.inverse(one))
+        init_positions    = jax.random.normal(init_key, shape=(n_local, dim_map))
+        initial_covariance = jnp.eye(dim_map)
+
+    init_keys   = jax.random.split(init_key, n_local)
     init_mapper = jax.vmap(lambda p, k: _mams_single_init(p, log_prob, k))
     state_multi = jax.jit(init_mapper)(init_positions, init_keys)
     dim = state_multi.position.shape[-1]
 
-    init_L = jnp.sqrt(dim) if init_L is None else init_L
-    init_step_size = (jnp.sqrt(dim) * 0.25) if init_step_size is None else init_step_size
-    
-    initial_covariance = qz.covariance()
+    init_L        = jnp.sqrt(dim)        if init_L        is None else init_L
+    init_step_size = jnp.sqrt(dim) * 0.25 if init_step_size is None else init_step_size
+
     starting_adapt_state = MAMSAdaptationState(
         L=init_L, step_size=init_step_size, inverse_mass_matrix=initial_covariance
     )
@@ -302,23 +321,24 @@ def MAMS(model_seq, qz, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_
         num_steps=num_burnin_steps,
         state=state_multi,
         rng_key=tune_key,
-        num_chains=n_chains,
+        num_chains=n_local,
         init_params=starting_adapt_state,
         target_covariance=initial_covariance,
-        mass_matrix_adapt=mass_matrix_adapt
+        mass_matrix_adapt=mass_matrix_adapt,
     )
-    print("Burnin Time:", time.perf_counter() - starttime)
+    if proc_idx == 0:
+        print("Burnin Time:", time.perf_counter() - starttime)
 
-    L = mams_tuned_params.L
+    L         = mams_tuned_params.L
     step_size = mams_tuned_params.step_size
-    if print_adapt_params:
+    if print_adapt_params and proc_idx == 0:
         print(f"ADAPTED. L: {L}, step_size: {step_size}, L/step: {L/step_size}")
 
     sampling_alg = mams_multi(
         logdensity_fn=log_prob,
         L=L,
         step_size=step_size,
-        num_chains=n_chains,
+        num_chains=n_local,
         inverse_mass_matrix=mams_tuned_params.inverse_mass_matrix,
         integrator=integrator,
     )
@@ -332,6 +352,7 @@ def MAMS(model_seq, qz, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_
         transform=lambda state, info: state.position,
         progress_bar=progress_bar,
     )
-    print(f"Sampling took {time.perf_counter() - starttime} s")
+    if proc_idx == 0:
+        print(f"Sampling took {time.perf_counter() - starttime} s")
 
     return multi_chain_samples

@@ -7,5 +7,5 @@ export JAX_COORDINATOR_ADDR=$(hostname):54321
 export JAX_PROCESS_COUNT=16
 export JAX_PROCESS_INDEX=\$SLURM_PROCID
 export NCCL_SOCKET_IFNAME=hsn
-srun -n 16 --ntasks-per-node=4 --gpus-per-node=4 python -u /global/homes/c/chaseg/nuts/run_laps.py
+srun -n 16 --ntasks-per-node=4 --gpus-per-node=4 python -u /global/homes/c/chaseg/mams/run_mams.py
 "

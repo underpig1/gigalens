@@ -1,6 +1,7 @@
 import jax
 jax.distributed.initialize(local_device_ids=None)
-
+if jax.process_index() == 0:
+    print('lap it up')
 import os
 import numpy as np
 import jax.numpy as jnp
@@ -16,7 +17,7 @@ from gigalens.simulator import SimulatorConfig
 from gigalens.jax.profiles.light import sersic
 from gigalens.jax.profiles.mass import epl, shear
 
-from laps_gem import LAPS
+from laps import LAPS
 
 jax.experimental.multihost_utils.sync_global_devices("init")
 if jax.process_index() == 0:
@@ -79,17 +80,17 @@ jax.experimental.multihost_utils.sync_global_devices("model_ready")
 
 # ---- Run LAPS ----
 N_CHAINS  = 1024   # divisible by n_devices; bump to 512/1024 if you have more GPUs
-N_RESULTS = 3000
+N_RESULTS = 2000
 
 laps_samples = LAPS(
     model_seq         = model_seq,
     qz                = None,
     n_chains          = N_CHAINS,
-    num_burnin_steps  = 4000,
+    num_burnin_steps  = 2000,
     num_results       = N_RESULTS,
-    mass_matrix_adapt = True,
-    progress_bar      = False,
-    print_adapt_params= True,
+    # mass_matrix_adapt = True,
+    # progress_bar      = False,
+    # print_adapt_params= True,
     seed              = 0,
 )
 

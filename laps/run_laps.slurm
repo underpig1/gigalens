@@ -17,4 +17,4 @@ module load python
 conda activate gigalens
 
 srun -n 4 -c 1 --cpu_bind=cores --gpu-bind=single:1 \
-    python -u /global/homes/c/chaseg/nuts/run_laps.py
+    python -u /global/homes/c/chaseg/laps/run_laps.py
