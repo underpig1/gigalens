@@ -17,7 +17,7 @@ from gigalens.simulator import SimulatorConfig
 from gigalens.jax.profiles.light import sersic
 from gigalens.jax.profiles.mass import epl, shear
 
-from laps import LAPS
+from laps_blackjax import LAPS
 
 jax.experimental.multihost_utils.sync_global_devices("init")
 if jax.process_index() == 0:
@@ -78,45 +78,84 @@ qz = tfd.MultivariateNormalTriL(loc=qz_data['loc'], scale_tril=qz_data['scale_tr
 
 jax.experimental.multihost_utils.sync_global_devices("model_ready")
 
-# ---- Run LAPS ----
-N_CHAINS  = 1024   # divisible by n_devices; bump to 512/1024 if you have more GPUs
+N_CHAINS  = 2048
 N_RESULTS = 2000
 
-laps_samples = LAPS(
-    model_seq         = model_seq,
-    qz                = None,
-    n_chains          = N_CHAINS,
-    num_burnin_steps  = 2000,
-    num_results       = N_RESULTS,
-    # mass_matrix_adapt = True,
-    # progress_bar      = False,
-    # print_adapt_params= True,
-    seed              = 0,
-)
-
-# ---- Gather samples from all processes → (num_results, n_chains, dim) ----
-all_samples = jax.experimental.multihost_utils.process_allgather(laps_samples, tiled=True)
-# process_allgather stacks on axis 0: (n_procs, num_results, n_local, dim)
-# tiled=True gives (num_results, n_chains, dim) directly
-jax.experimental.multihost_utils.sync_global_devices("done")
-
-# ---- Diagnostics (process 0 only) ----
+# ---- Run 1: LAPS cold start (no qz) ----
 if jax.process_index() == 0:
-    print(f"\nSamples shape: {all_samples.shape}")
+    print("\n=== LAPS cold start ===")
+cold_samples = LAPS(
+    model_seq        = model_seq,
+    qz               = None,
+    n_hmc         = N_CHAINS,
+    num_unadjusted_steps = 2000,
+    num_adjusted_steps      = N_RESULTS,
+)
+cold_all = jax.experimental.multihost_utils.process_allgather(cold_samples, tiled=True)
+jax.experimental.multihost_utils.sync_global_devices("cold_done")
 
-    ESS  = blackjax.diagnostics.effective_sample_size(all_samples, chain_axis=1, sample_axis=0)
-    Rhat = blackjax.diagnostics.potential_scale_reduction(all_samples, chain_axis=1, sample_axis=0)
+# ---- Run 2: LAPS warm start (qz) ----
+if jax.process_index() == 0:
+    print("\n=== LAPS warm start (qz) ===")
+warm_samples = LAPS(
+    model_seq        = model_seq,
+    qz               = qz,
+    n_hmc         = 16,
+    num_unadjusted_steps = 2000,
+    num_adjusted_steps      = N_RESULTS,
+)
+warm_all = jax.experimental.multihost_utils.process_allgather(warm_samples, tiled=True)
+jax.experimental.multihost_utils.sync_global_devices("warm_done")
 
-    print(f"ESS  — mean: {float(jnp.mean(ESS)):.1f}  min: {float(jnp.min(ESS)):.1f}")
-    print(f"Rhat — mean: {float(jnp.mean(Rhat)):.4f}  max: {float(jnp.max(Rhat)):.4f}")
-
+# ---- Diagnostics + corner plot (process 0 only) ----
+if jax.process_index() == 0:
     os.makedirs('results', exist_ok=True)
-    np.save('results/laps_samples.npy', np.array(all_samples))
-    print("Saved results/laps_samples.npy")
 
-    import corner, matplotlib.pyplot as plt
-    flat = np.array(all_samples).reshape(-1, all_samples.shape[-1])[::10]
-    fig = corner.corner(flat, plot_datapoints=False)
-    fig.savefig('results/corner.png', dpi=100, bbox_inches='tight')
+    for label, arr, fname in [
+        ("LAPS cold", cold_all, "results/laps_cold_samples.npy"),
+        ("LAPS warm", warm_all, "results/laps_warm_samples.npy"),
+    ]:
+        ESS  = blackjax.diagnostics.effective_sample_size(arr, chain_axis=1, sample_axis=0)
+        Rhat = blackjax.diagnostics.potential_scale_reduction(arr, chain_axis=1, sample_axis=0)
+        print(f"\n{label}  shape={arr.shape}")
+        print(f"  ESS  mean={float(jnp.mean(ESS)):.1f}  min={float(jnp.min(ESS)):.1f}")
+        print(f"  Rhat mean={float(jnp.mean(Rhat)):.4f}  max={float(jnp.max(Rhat)):.4f}")
+        np.save(fname, np.array(arr))
+        print(f"  Saved {fname}")
+
+    import corner
+    import matplotlib.pyplot as plt
+    from matplotlib.lines import Line2D
+
+    dim = cold_all.shape[-1]
+    # thin equally so both sets have the same point count
+    flat_cold = np.array(cold_all).reshape(-1, dim)[::10]
+    flat_warm = np.array(warm_all).reshape(-1, dim)[::10]
+
+    fig = corner.corner(
+        flat_warm,
+        color="C1",
+        plot_datapoints=False,
+        plot_density=True,
+        fill_contours=False,
+    )
+    corner.corner(
+        flat_cold,
+        color="C0",
+        plot_datapoints=False,
+        plot_density=True,
+        fill_contours=False,
+        fig=fig,
+    )
+    fig.legend(
+        handles=[
+            Line2D([0], [0], color="C1", lw=2, label="LAPS warm (qz)"),
+            Line2D([0], [0], color="C0", lw=2, label="LAPS cold start"),
+        ],
+        loc="upper right",
+        fontsize=11,
+        frameon=True,
+    )
+    fig.savefig("results/corner.png", dpi=100, bbox_inches="tight")
     plt.close(fig)
-    print("Saved results/corner.png")
+    print("\nSaved results/corner.png")
