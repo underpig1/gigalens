@@ -263,7 +263,7 @@ def mams_find_L_and_step_size(
 # 5. HIGH-LEVEL WRAPPER FOR USER IMPLEMENTATION
 # =====================================================================
 
-def MAMS(model_seq, qz=None, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_matrix_adapt=True,
+def MAMS(model_seq, qz=None, map_estimate=None, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_matrix_adapt=True,
          init_L=None, init_step_size=None, progress_bar=False, print_adapt_params=False, seed=0):
     """
     GIGALens wrapper for Microcanonical Adaptive Monte Carlo with Momentum Subsampling (MAMS).
@@ -296,6 +296,21 @@ def MAMS(model_seq, qz=None, n_hmc=16, num_burnin_steps=1000, num_results=2000, 
     if qz is not None:
         init_positions    = qz.sample((n_local,), seed=init_key)
         initial_covariance = qz.covariance()
+    elif map_estimate is not None:
+        # Extract the parameter vector array ('best') from the (best, chisq, lp) tuple
+        # and squeeze out the outer batch dimension to make it a flat 1D vector of size 22
+        flat_map = jnp.squeeze(map_estimate[0])
+        dim_map = flat_map.shape[-1]  # This will equal 22
+        
+        # Broadcast the MAP estimate to all local chains and add a small amount of noise
+        map_jitter = 1e-3
+        if map_jitter > 0:
+            noise = jax.random.normal(init_key, shape=(n_local, dim_map))
+            init_positions = flat_map + map_jitter * noise
+        else:
+            init_positions = jnp.tile(flat_map, (n_local, 1))
+            
+        initial_covariance = jnp.eye(dim_map)
     else:
         one     = model_seq.prob_model.prior.sample(seed=init_key)
         dim_map = len(model_seq.prob_model.bij.inverse(one))

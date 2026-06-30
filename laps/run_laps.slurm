@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --time=00:30:00
 #SBATCH --qos=debug
-#SBATCH --nodes=1
+#SBATCH --nodes=2
 #SBATCH --ntasks-per-node=4
 #SBATCH --constraint=gpu
 #SBATCH --job-name=laps_256
@@ -16,5 +16,5 @@ export NCCL_SOCKET_IFNAME=hsn
 module load python
 conda activate gigalens
 
-srun -n 4 -c 1 --cpu_bind=cores --gpu-bind=single:1 \
+srun -N 2 -n 4 -c 1 --cpu_bind=cores --gpu-bind=single:1 \
     python -u /global/homes/c/chaseg/laps/run_laps.py

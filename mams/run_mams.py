@@ -1,7 +1,7 @@
 import jax
 jax.distributed.initialize(local_device_ids=None)
 if jax.process_index() == 0:
-    print('lap it up')
+    print('mam it up')
 import os
 import numpy as np
 import jax.numpy as jnp
@@ -18,6 +18,8 @@ from gigalens.jax.profiles.light import sersic
 from gigalens.jax.profiles.mass import epl, shear
 
 from mams import MAMS
+import optax
+from jax.experimental import shard_map
 
 jax.experimental.multihost_utils.sync_global_devices("init")
 if jax.process_index() == 0:
@@ -82,9 +84,18 @@ jax.experimental.multihost_utils.sync_global_devices("model_ready")
 N_CHAINS  = 1024   # divisible by n_devices; bump to 512/1024 if you have more GPUs
 N_RESULTS = 3000
 
+schedule_fn = optax.polynomial_schedule(init_value=-1e-2, end_value=-1e-2/3, 
+                                      power=0.5, transition_steps=500)
+opt = optax.chain(
+  optax.scale_by_adam(),
+  optax.scale_by_schedule(schedule_fn),
+)
+map_estimate = model_seq.MAP(opt, seed=0)
+
 laps_samples = MAMS(
     model_seq         = model_seq,
     qz                = None,
+    map_estimate=map_estimate,
     n_hmc          = N_CHAINS,
     num_burnin_steps  = 4000,
     num_results       = N_RESULTS,

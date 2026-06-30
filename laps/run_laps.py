@@ -9,6 +9,10 @@ import blackjax
 import tensorflow_probability.substrates.jax as tfp
 tfd = tfp.distributions
 
+os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"]="false"
+os.environ["XLA_PYTHON_CLIENT_MEM_FRACTION"]="0.95"
+# os.environ["XLA_PYTHON_CLIENT_ALLOCATOR"]="platform"
+
 from gigalens.jax.inference import ModellingSequence
 from gigalens.jax.model import ForwardProbModel
 from gigalens.model import PhysicalModel
@@ -17,7 +21,12 @@ from gigalens.simulator import SimulatorConfig
 from gigalens.jax.profiles.light import sersic
 from gigalens.jax.profiles.mass import epl, shear
 
-from laps_blackjax import LAPS
+
+import sys
+sys.path.append('../nuts')
+from mclmc_alt import MCLMC
+
+from laps import LAPS
 
 jax.experimental.multihost_utils.sync_global_devices("init")
 if jax.process_index() == 0:
@@ -78,8 +87,18 @@ qz = tfd.MultivariateNormalTriL(loc=qz_data['loc'], scale_tril=qz_data['scale_tr
 
 jax.experimental.multihost_utils.sync_global_devices("model_ready")
 
-N_CHAINS  = 2048
+N_CHAINS  = 1024
 N_RESULTS = 2000
+
+import optax
+from jax.experimental import shard_map
+schedule_fn = optax.polynomial_schedule(init_value=-1e-2, end_value=-1e-2/3, 
+                                      power=0.5, transition_steps=500)
+opt = optax.chain(
+  optax.scale_by_adam(),
+  optax.scale_by_schedule(schedule_fn),
+)
+map_estimate = model_seq.MAP(opt, seed=0)
 
 # ---- Run 1: LAPS cold start (no qz) ----
 if jax.process_index() == 0:
@@ -87,9 +106,10 @@ if jax.process_index() == 0:
 cold_samples = LAPS(
     model_seq        = model_seq,
     qz               = None,
-    n_hmc         = N_CHAINS,
-    num_unadjusted_steps = 2000,
-    num_adjusted_steps      = N_RESULTS,
+    map_estimate = map_estimate,
+    n_chains         = N_CHAINS,
+    num_burnin_steps = 2000,
+    num_results      = N_RESULTS,
 )
 cold_all = jax.experimental.multihost_utils.process_allgather(cold_samples, tiled=True)
 jax.experimental.multihost_utils.sync_global_devices("cold_done")
@@ -97,15 +117,8 @@ jax.experimental.multihost_utils.sync_global_devices("cold_done")
 # ---- Run 2: LAPS warm start (qz) ----
 if jax.process_index() == 0:
     print("\n=== LAPS warm start (qz) ===")
-warm_samples = LAPS(
-    model_seq        = model_seq,
-    qz               = qz,
-    n_hmc         = 16,
-    num_unadjusted_steps = 2000,
-    num_adjusted_steps      = N_RESULTS,
-)
-warm_all = jax.experimental.multihost_utils.process_allgather(warm_samples, tiled=True)
-jax.experimental.multihost_utils.sync_global_devices("warm_done")
+
+warm_all = MCLMC(model_seq, qz, n_hmc=16, num_burnin_steps=1000, num_results=2000)
 
 # ---- Diagnostics + corner plot (process 0 only) ----
 if jax.process_index() == 0:
@@ -156,6 +169,6 @@ if jax.process_index() == 0:
         fontsize=11,
         frameon=True,
     )
-    fig.savefig("results/corner.png", dpi=100, bbox_inches="tight")
+    fig.savefig("results/corner_notblackjax.png", dpi=100, bbox_inches="tight")
     plt.close(fig)
     print("\nSaved results/corner.png")
