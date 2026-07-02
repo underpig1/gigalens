@@ -1,0 +1,184 @@
+2026-07-01T16:45:04-07:00 LAUNCH
+[I 2026-07-01 16:45:13.479 ServerApp] Extension package dask_labextension took 2.0732s to import
+[W 2026-07-01 16:45:13.479 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-01 16:45:13.584 ServerApp] Extension package jupyter_lsp took 0.1034s to import
+[I 2026-07-01 16:45:13.816 ServerApp] Extension package jupyterlab took 0.1325s to import
+[I 2026-07-01 16:45:14.399 ServerApp] Extension package jupyterlab_git took 0.1021s to import
+[I 2026-07-01 16:45:16.127 ServerApp] Extension package jupyterlab_h5web took 1.7275s to import
+[I 2026-07-01 16:45:16.581 ServerApp] Extension package jupyterlab_jupytext took 0.4537s to import
+[W 2026-07-01 16:45:16.719 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-01 16:45:16.727 ServerApp] dask_labextension | extension was successfully linked.
+[I 2026-07-01 16:45:16.728 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-07-01 16:45:16.728 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-07-01 16:45:16.736 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2026-07-01 16:45:16.737 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2026-07-01 16:45:16.749 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-07-01 16:45:16.749 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2026-07-01 16:45:16.750 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/c/chaseg
+[I 2026-07-01 16:45:16.753 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-07-01 16:45:16.758 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-01 16:45:16.761 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-07-01 16:45:16.761 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-07-01 16:45:16.761 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-07-01 16:45:16.762 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2026-07-01 16:45:16.762 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2026-07-01 16:45:16.762 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2026-07-01 16:45:16.763 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2026-07-01 16:45:16.772 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-01 16:45:16.774 ServerApp] nbclassic | extension was successfully linked.
+[I 2026-07-01 16:45:16.774 ServerApp] nbdime | extension was successfully linked.
+[W 2026-07-01 16:45:16.778 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-01 16:45:16.784 ServerApp] notebook | extension was successfully linked.
+[I 2026-07-01 16:45:16.787 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-614c4a34-6b2b-4c6b-a959-36bd3cd07d22/jupyter_cookie_secret
+[I 2026-07-01 16:45:16.824 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-07-01 16:45:16.958 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-07-01 16:45:16.959 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2026-07-01 16:45:16.961 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-07-01 16:45:16.962 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-07-01 16:45:16.963 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2026-07-01 16:45:17.006 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2026-07-01 16:45:17.008 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-07-01 16:45:17.033 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-07-01 16:45:17.033 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-07-01 16:45:17.272 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-07-01 16:45:17.547 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterlab
+[I 2026-07-01 16:45:17.548 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/26-06/share/jupyter/lab
+[I 2026-07-01 16:45:17.549 LabApp] Extension Manager is 'pypi'.
+[I 2026-07-01 16:45:17.572 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-07-01 16:45:17.573 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-07-01 16:45:17.573 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-07-01 16:45:17.579 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-07-01 16:45:17.855 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2026-07-01 16:45:17.855 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2026-07-01 16:45:17.856 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2026-07-01 16:45:17.857 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2026-07-01 16:45:17.859 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2026-07-01 16:45:17.860 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2026-07-01 16:45:17.860 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+[I 2026-07-01 16:45:17.861 ServerApp] Registered jupyterlab_wall server extension
+[I 2026-07-01 16:45:17.861 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2026-07-01 16:45:17.888 ServerApp] nbclassic | extension was successfully loaded.
+[I 2026-07-01 16:45:18.431 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-07-01 16:45:18.513 ServerApp] notebook | extension was successfully loaded.
+[I 2026-07-01 16:45:18.514 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2026-07-01 16:45:18.514 ServerApp] Serving notebooks from local directory: /
+[I 2026-07-01 16:45:18.515 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2026-07-01 16:45:18.515 ServerApp] http://nid001800:42249/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-01 16:45:18.515 ServerApp]     http://127.0.0.1:42249/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-01 16:45:18.515 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-07-01 16:45:46.001 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-07-01 16:45:46.220 ServerApp] Loaded Jupytext configuration file at /global/common/software/nersc9/jupyter/ex/26-06/etc/jupytext/jupytext.toml
+[I 2026-07-01 16:45:48.276 ServerApp] New terminal with automatic name: 1
+[I 2026-07-01 16:45:48.277 ServerApp] Culling terminals with inactivity > 64800 seconds at 300 second intervals ...
+[W 2026-07-01 16:45:49.754 ServerApp] Notebook global/homes/c/chaseg/laps/laps.ipynb is not trusted
+[I 2026-07-01 16:45:54.268 ServerApp] Kernel started: 2a92327f-49f2-4a7c-a024-28d8f4457829
+[I 2026-07-01 16:45:54.268 ServerApp] Culling kernels with idle durations > 64800 seconds at 300 second intervals ...
+[I 2026-07-01 16:46:03.051 ServerApp] Connecting to kernel 2a92327f-49f2-4a7c-a024-28d8f4457829.
+[I 2026-07-01 16:46:03.382 ServerApp] Connecting to kernel 2a92327f-49f2-4a7c-a024-28d8f4457829.
+[I 2026-07-01 16:46:24.468 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:46:37.540 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:46:53.830 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:46:59.764 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:47:01.450 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:47:09.016 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:47:15.999 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:47:27.828 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:47:38.024 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[I 2026-07-01 16:47:58.604 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.py
+[W 2026-07-01 16:49:13.138 ServerApp] Notebook global/homes/c/chaseg/mams/mams.ipynb is not trusted
+[I 2026-07-01 16:49:15.906 ServerApp] Kernel started: 5f39ac00-7cb6-4a57-a2c1-574c38956dc1
+[I 2026-07-01 16:49:20.683 ServerApp] Connecting to kernel 5f39ac00-7cb6-4a57-a2c1-574c38956dc1.
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+2026-07-01 16:49:27.265692: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1782949767.435421  436452 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1782949767.484870  436452 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1782949767.952287  436452 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1782949767.952306  436452 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1782949767.952310  436452 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1782949767.952312  436452 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-07-01 16:51:19.593 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.ipynb
+[I 2026-07-01 16:51:19.636 ServerApp] Saving mams.ipynb
+[W 2026-07-01 16:51:19.636 ServerApp] Notebook global/homes/c/chaseg/mams/mams.ipynb is not trusted
+[I 2026-07-01 16:53:25.860 ServerApp] Saving file at /global/homes/c/chaseg/mams/mams.ipynb
+[I 2026-07-01 16:53:25.892 ServerApp] Saving mams.ipynb
+[W 2026-07-01 16:53:25.893 ServerApp] Notebook global/homes/c/chaseg/mams/mams.ipynb is not trusted
+[I 2026-07-01 16:54:33.831 ServerApp] Starting buffering for 5f39ac00-7cb6-4a57-a2c1-574c38956dc1:16868849-45cc-4758-9db7-97643b626234
+[I 2026-07-01 16:54:33.833 ServerApp] Kernel shutdown: 5f39ac00-7cb6-4a57-a2c1-574c38956dc1
+[I 2026-07-01 16:54:39.463 ServerApp] Starting buffering for 2a92327f-49f2-4a7c-a024-28d8f4457829:8eb71cff-d1c3-422c-be3b-61fafaf88da8
+[I 2026-07-01 16:54:39.464 ServerApp] Kernel shutdown: 2a92327f-49f2-4a7c-a024-28d8f4457829
+[W 2026-07-01 21:52:02.432 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-07-01 22:09:36.613 ServerApp] New terminal with automatic name: 2
+[I 2026-07-01 22:21:16.823 ServerApp] New terminal with automatic name: 3
+[W 2026-07-01 22:25:25.784 ServerApp] wrote error: '/global/homes/c/chaseg/clensing/im.npy is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 391, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x93 in position 0: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 460, in get
+        model = self._file_model(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 362, in _file_model
+        content, format, bytes_content = self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 400, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/global/homes/c/chaseg/clensing/im.npy is not UTF-8 encoded)
+[I 2026-07-01 22:25:31.832 ServerApp] Saving file at /global/homes/c/chaseg/clensing/CMakeLists.txt
+[I 2026-07-01 22:25:49.165 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[I 2026-07-01 22:26:53.748 ServerApp] New terminal with automatic name: 4
+[I 2026-07-01 22:26:57.468 ServerApp] EOF on FD 43; stopping reading
+[I 2026-07-01 22:26:57.569 ServerApp] Terminal 4 closed
+[I 2026-07-01 22:27:03.045 ServerApp] New terminal with automatic name: 4
+[I 2026-07-01 22:27:06.508 ServerApp] EOF on FD 40; stopping reading
+[I 2026-07-01 22:27:06.608 ServerApp] Terminal 4 closed
+[I 2026-07-01 22:27:15.557 ServerApp] New terminal with automatic name: 4
+[I 2026-07-01 22:28:02.247 ServerApp] Creating new file in /global/homes/c/chaseg/clensing
+[I 2026-07-01 22:28:09.115 ServerApp] Saving file at /global/homes/c/chaseg/clensing/salloc
+[I 2026-07-01 22:28:11.886 ServerApp] Saving file at /global/homes/c/chaseg/clensing/salloc
+[I 2026-07-01 22:28:57.885 ServerApp] Saving file at /global/homes/c/chaseg/clensing/alloc.sh
+[I 2026-07-01 22:29:10.570 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[I 2026-07-01 22:29:12.089 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[W 2026-07-01 22:30:14.674 ServerApp] delete /global/homes/c/chaseg/clensing/third_party/tpls
+[I 2026-07-01 22:30:22.496 ServerApp] Saving file at /global/homes/c/chaseg/clensing/CMakeLists.txt
+[I 2026-07-01 22:30:23.877 ServerApp] Saving file at /global/homes/c/chaseg/clensing/CMakeLists.txt
+[I 2026-07-01 22:30:28.111 ServerApp] Saving file at /global/homes/c/chaseg/clensing/CMakeLists.txt
+[I 2026-07-01 22:30:29.822 ServerApp] Saving file at /global/homes/c/chaseg/clensing/CMakeLists.txt
+[I 2026-07-01 22:31:21.429 ServerApp] Saving file at /global/homes/c/chaseg/clensing/alloc.sh
+[I 2026-07-01 22:32:24.397 ServerApp] EOF on FD 40; stopping reading
+[I 2026-07-01 22:32:24.497 ServerApp] Terminal 4 closed
+[I 2026-07-01 22:32:31.366 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[I 2026-07-01 22:32:38.637 ServerApp] New terminal with automatic name: 4
+[W 2026-07-01 22:34:13.005 ServerApp] delete /global/homes/c/chaseg/clensing/third_party/kokkos
+[W 2026-07-01 22:34:13.007 ServerApp] wrote error: 'Directory /global/homes/c/chaseg/clensing/third_party/kokkos not empty'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 335, in delete
+        await ensure_async(cm.delete(path))
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 489, in delete
+        self.delete_file(path)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 571, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /global/homes/c/chaseg/clensing/third_party/kokkos not empty)
+[2026-07-02T05:38:48.473] error: *** JOB 55368388 ON nid001800 CANCELLED AT 2026-07-02T05:38:48 DUE to SIGNAL Terminated ***

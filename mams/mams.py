@@ -21,25 +21,23 @@ from blackjax.util import generate_unit_vector, pytree_size
 import gigalens.jax.simulator as sim
 
 # =====================================================================
-# 1. CORE MAMS TYPE DEFINITIONS & STRUCTURES
+# core defs
 # =====================================================================
 
 class MAMSInfo(NamedTuple):
-    """Tracking metrics for Microcanonical Adaptive Monte Carlo transitions."""
     logdensity: float
     energy_change: float
     accept_prob: float
 
 
 class MAMSAdaptationState(NamedTuple):
-    """Hyperparameters refined during the burn-in initialization."""
     L: float
     step_size: float
     inverse_mass_matrix: ArrayLike
 
 
 # =====================================================================
-# 2. MULTI-CHAIN CORE SAMPLING KERNELS
+# multi chain kernels
 # =====================================================================
 
 def _mams_single_init(position: ArrayLike, logdensity_fn: Callable, rng_key: PRNGKey):
@@ -72,7 +70,7 @@ def _mams_single_kernel(
         
         energy_error = kinetic_change - logdensity + state.logdensity
         
-        # Metropolis-Hastings layer for long-term integration stability
+        # MH
         accept_prob = jnp.minimum(1.0, jnp.exp(-energy_error))
         unif_key, vector_key = jax.random.split(rng_key)
         
@@ -84,7 +82,6 @@ def _mams_single_kernel(
             lambda: state
         )
         
-        # Partial momentum refreshment via subsampling over the unit sphere shell
         refreshed_momentum = generate_unit_vector(vector_key, new_state.position)
         mixing_coef = jnp.exp(-step_size / L)
         final_momentum = (mixing_coef * new_state.momentum) + (jnp.sqrt(1.0 - mixing_coef**2) * refreshed_momentum)
@@ -138,7 +135,7 @@ def mams_multi(
 
 
 # =====================================================================
-# 3. DENSE MASS-MATRIX INTEGRATORS WITH CHOLESKY FACTORIZATION
+# dense int +cholesky factorization
 # =====================================================================
 
 def generate_isokinetic_integrator_smart(coefficients):
@@ -202,7 +199,7 @@ isokinetic_mclachlan_smart = generate_isokinetic_integrator_smart(mclachlan_coef
 
 
 # =====================================================================
-# 4. MASS-MATRIX & STEP-SIZE ADAPTATION SCHEME
+# adaptation (mass matrix broken)
 # =====================================================================
 
 def mams_find_L_and_step_size(
@@ -239,14 +236,12 @@ def mams_find_L_and_step_size(
     carry_out, sample_history = jax.lax.scan(adaptation_step, scan_init, xs_input)
     state, params, _ = carry_out
     
-    # Process empirical covariance properties using post-warmup intervals
     if mass_matrix_adapt:
         post_warmup_samples = sample_history[num_steps1:]
         flat_samples = post_warmup_samples.reshape(-1, dim)
         empirical_cov = jnp.cov(flat_samples, rowvar=False)
         
-        # FIX: Soft-shrinkage toward the pristine variational target matrix (qz.covariance) 
-        # instead of a harsh identity matrix. This prevents geometry collapse.
+        # FIX: Soft-shrinkage toward the pristine variational target matri
         shrinkage_weight = 0.0
         adapted_inv_mass = (1.0 - shrinkage_weight) * empirical_cov + shrinkage_weight * target_covariance
         adapted_inv_mass += jnp.eye(dim) * 1e-6  
@@ -260,7 +255,7 @@ def mams_find_L_and_step_size(
 
 
 # =====================================================================
-# 5. HIGH-LEVEL WRAPPER FOR USER IMPLEMENTATION
+# ggalens wrapper
 # =====================================================================
 
 def MAMS(model_seq, qz=None, map_estimate=None, n_hmc=16, num_burnin_steps=1000, num_results=2000, mass_matrix_adapt=True,
@@ -280,7 +275,6 @@ def MAMS(model_seq, qz=None, map_estimate=None, n_hmc=16, num_burnin_steps=1000,
     def log_prob(z):
         return model_seq.prob_model.log_prob(lens_sim, z)[0]
 
-    # --- Multi-process setup ---
     n_procs  = jax.process_count()
     proc_idx = jax.process_index()
     n_local  = n_hmc // n_procs
@@ -292,17 +286,13 @@ def MAMS(model_seq, qz=None, map_estimate=None, n_hmc=16, num_burnin_steps=1000,
 
     integrator = isokinetic_mclachlan_smart
 
-    # --- Initialize local chains ---
     if qz is not None:
         init_positions    = qz.sample((n_local,), seed=init_key)
         initial_covariance = qz.covariance()
     elif map_estimate is not None:
-        # Extract the parameter vector array ('best') from the (best, chisq, lp) tuple
-        # and squeeze out the outer batch dimension to make it a flat 1D vector of size 22
         flat_map = jnp.squeeze(map_estimate[0])
         dim_map = flat_map.shape[-1]  # This will equal 22
         
-        # Broadcast the MAP estimate to all local chains and add a small amount of noise
         map_jitter = 1e-3
         if map_jitter > 0:
             noise = jax.random.normal(init_key, shape=(n_local, dim_map))

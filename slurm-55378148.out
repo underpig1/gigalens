@@ -1,0 +1,173 @@
+2026-07-01T22:39:47-07:00 LAUNCH
+[I 2026-07-01 22:39:54.347 ServerApp] Extension package dask_labextension took 1.2972s to import
+[W 2026-07-01 22:39:54.347 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-01 22:39:54.460 ServerApp] Extension package jupyter_lsp took 0.1125s to import
+[I 2026-07-01 22:39:56.138 ServerApp] Extension package jupyterlab_h5web took 1.0739s to import
+[I 2026-07-01 22:39:56.445 ServerApp] Extension package jupyterlab_jupytext took 0.3060s to import
+[I 2026-07-01 22:39:56.587 ServerApp] Extension package jupyterlab_nvdashboard took 0.1411s to import
+[W 2026-07-01 22:39:56.633 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-01 22:39:56.640 ServerApp] dask_labextension | extension was successfully linked.
+[I 2026-07-01 22:39:56.640 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-07-01 22:39:56.641 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-07-01 22:39:56.650 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2026-07-01 22:39:56.651 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2026-07-01 22:39:56.663 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-07-01 22:39:56.664 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2026-07-01 22:39:56.664 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/c/chaseg
+[I 2026-07-01 22:39:56.667 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-07-01 22:39:56.674 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-01 22:39:56.680 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-07-01 22:39:56.681 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-07-01 22:39:56.681 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-07-01 22:39:56.681 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2026-07-01 22:39:56.681 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2026-07-01 22:39:56.682 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2026-07-01 22:39:56.682 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2026-07-01 22:39:56.687 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-01 22:39:56.689 ServerApp] nbclassic | extension was successfully linked.
+[I 2026-07-01 22:39:56.690 ServerApp] nbdime | extension was successfully linked.
+[W 2026-07-01 22:39:56.694 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-01 22:39:56.697 ServerApp] notebook | extension was successfully linked.
+[I 2026-07-01 22:39:56.698 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-fdaac93a-62af-48f2-aafe-fc5593ce5c78/jupyter_cookie_secret
+[I 2026-07-01 22:39:56.727 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-07-01 22:39:56.806 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-07-01 22:39:56.807 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2026-07-01 22:39:56.809 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-07-01 22:39:56.810 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-07-01 22:39:56.811 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2026-07-01 22:39:56.847 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2026-07-01 22:39:56.849 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-07-01 22:39:56.938 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-07-01 22:39:59.462 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-07-01 22:39:59.462 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-07-01 22:39:59.751 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterlab
+[I 2026-07-01 22:39:59.751 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/26-06/share/jupyter/lab
+[I 2026-07-01 22:39:59.753 LabApp] Extension Manager is 'pypi'.
+[I 2026-07-01 22:39:59.773 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-07-01 22:39:59.774 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-07-01 22:39:59.774 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-07-01 22:39:59.780 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-07-01 22:39:59.953 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2026-07-01 22:39:59.954 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2026-07-01 22:39:59.954 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2026-07-01 22:39:59.955 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2026-07-01 22:39:59.956 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2026-07-01 22:39:59.957 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2026-07-01 22:39:59.957 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+[I 2026-07-01 22:39:59.958 ServerApp] Registered jupyterlab_wall server extension
+[I 2026-07-01 22:39:59.958 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2026-07-01 22:40:00.008 ServerApp] nbclassic | extension was successfully loaded.
+[I 2026-07-01 22:40:00.256 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-07-01 22:40:00.331 ServerApp] notebook | extension was successfully loaded.
+[I 2026-07-01 22:40:00.332 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2026-07-01 22:40:00.332 ServerApp] Serving notebooks from local directory: /
+[I 2026-07-01 22:40:00.333 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2026-07-01 22:40:00.333 ServerApp] http://nid001017:44605/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-01 22:40:00.333 ServerApp]     http://127.0.0.1:44605/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-01 22:40:00.333 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-07-01 22:40:23.479 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-07-01 22:40:23.604 ServerApp] Loaded Jupytext configuration file at /global/common/software/nersc9/jupyter/ex/26-06/etc/jupytext/jupytext.toml
+[I 2026-07-01 22:40:25.257 ServerApp] New terminal with automatic name: 1
+[I 2026-07-01 22:40:25.258 ServerApp] Culling terminals with inactivity > 64800 seconds at 300 second intervals ...
+[I 2026-07-01 22:40:25.490 ServerApp] New terminal with automatic name: 4
+[I 2026-07-01 22:43:48.624 ServerApp] New terminal with automatic name: 2
+[I 2026-07-01 22:45:54.610 ServerApp] Saving file at /global/homes/c/chaseg/clensing/CMakeLists.txt
+[I 2026-07-01 22:51:47.032 ServerApp] Creating new directory in /global/homes/c/chaseg/clensing
+[I 2026-07-01 22:52:08.060 ServerApp] Saving file at /global/homes/c/chaseg/clensing/export.py
+[I 2026-07-01 22:52:15.385 ServerApp] Creating new directory in /global/homes/c/chaseg/clensing
+[I 2026-07-01 22:52:22.372 ServerApp] Saving file at /global/homes/c/chaseg/clensing/export.py
+[I 2026-07-01 22:53:00.037 ServerApp] Creating new directory in /global/homes/c/chaseg/clensing
+[I 2026-07-01 22:53:14.474 ServerApp] New terminal with automatic name: 3
+[W 2026-07-01 23:00:19.125 ServerApp.jupyterlab_git] Fail to execute ['git', 'rev-parse', '--show-prefix']
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterlab_git/git.py", line 189, in execute
+        code, output, error = await current_loop.run_in_executor(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+        result = self.fn(*self.args, **self.kwargs)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterlab_git/git.py", line 150, in call_subprocess
+        process = subprocess.Popen(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/subprocess.py", line 971, in __init__
+        self._execute_child(args, executable, preexec_fn, close_fds,
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/subprocess.py", line 1863, in _execute_child
+        raise child_exception_type(errno_num, err_msg, err_filename)
+    FileNotFoundError: [Errno 2] No such file or directory: '/global/homes/c/chaseg/clensing/out'
+[I 2026-07-01 23:01:32.593 ServerApp] New terminal with automatic name: 5
+[I 2026-07-01 23:08:02.846 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[I 2026-07-01 23:08:21.778 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[I 2026-07-01 23:10:40.145 ServerApp] Saving file at /global/homes/c/chaseg/clensing/alloc.sh
+[I 2026-07-01 23:10:58.070 ServerApp] New terminal with automatic name: 6
+[I 2026-07-01 23:11:20.803 ServerApp] Saving file at /global/homes/c/chaseg/clensing/alloc.sh
+[I 2026-07-01 23:11:38.082 ServerApp] Saving file at /global/homes/c/chaseg/clensing/alloc.sh
+[I 2026-07-01 23:24:27.087 ServerApp] New terminal with automatic name: 7
+[I 2026-07-01 23:41:17.301 ServerApp] Saving file at /global/homes/c/chaseg/clensing/alloc.sh
+[I 2026-07-01 23:43:00.391 ServerApp] Creating new file in /global/homes/c/chaseg/clensing
+[I 2026-07-01 23:43:52.361 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:44:31.046 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:44:54.891 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:45:30.588 ServerApp] Creating new file in /global/homes/c/chaseg/clensing
+[I 2026-07-01 23:45:36.954 ServerApp] Saving file at /global/homes/c/chaseg/clensing/rebuild.sh
+[I 2026-07-01 23:47:08.620 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:47:57.471 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:48:21.550 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:50:20.323 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:50:37.423 ServerApp] EOF on FD 37; stopping reading
+[I 2026-07-01 23:50:37.528 ServerApp] Terminal 2 closed
+2026-07-01 23:50:37,620 - ServerApp - ERROR - Exception in callback functools.partial(<function WebSocketProtocol._run_callback.<locals>.<lambda> at 0x7f6ad8f00550>, <Task finished name='Task-44008' coro=<TermSocket.on_message() done, defined at /global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server_terminals/handlers.py:60> exception=AssertionError()>)
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/ioloop.py", line 750, in _run_callback
+    ret = callback()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 640, in <lambda>
+    self.stream.io_loop.add_future(result, lambda f: f.result())
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server_terminals/handlers.py", line 62, in on_message
+    await ensure_async(super().on_message(message))  # type:ignore[arg-type]
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+    result = await obj
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/gen.py", line 233, in wrapper
+    yielded = ctx_run(next, result)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/terminado/websocket.py", line 101, in on_message
+    assert self.terminal is not None
+AssertionError
+2026-07-01 23:50:37,644 - ServerApp - ERROR - Uncaught exception GET /user/chaseg/perlmutter-exclusive-node-gpu/terminals/websocket/2 (10.42.5.19)
+HTTPServerRequest(protocol='https', host='jupyter.nersc.gov', method='GET', uri='/user/chaseg/perlmutter-exclusive-node-gpu/terminals/websocket/2', version='HTTP/1.1', remote_ip='10.42.5.19')
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server_terminals/handlers.py", line 58, in get
+    await ensure_async(resp)  # type:ignore[arg-type]
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+    result = await obj
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 273, in get
+    await self.ws_connection.accept_connection(self)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 863, in accept_connection
+    await self._accept_connection(handler)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 946, in _accept_connection
+    await self._receive_frame_loop()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 1102, in _receive_frame_loop
+    await self._receive_frame()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 1193, in _receive_frame
+    await handled_future
+AssertionError
+[I 2026-07-01 23:50:42.711 ServerApp] New terminal with automatic name: 2
+[I 2026-07-01 23:51:46.726 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:51:49.507 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:52:54.222 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:53:03.073 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:53:13.288 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:53:15.010 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:54:14.144 ServerApp] Saving file at /global/homes/c/chaseg/clensing/build.sh
+[I 2026-07-01 23:57:04.285 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:57:08.880 ServerApp] New terminal with automatic name: 8
+[I 2026-07-01 23:57:18.534 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:57:29.068 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:58:17.982 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-01 23:58:58.717 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:00:40.047 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:01:41.710 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:02:29.610 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:03:53.270 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:03:55.222 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:04:39.377 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:04:50.419 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:05:37.007 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:05:38.239 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 00:05:43.063 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
