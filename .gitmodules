@@ -1,3 +1,6 @@
 [submodule "laps/blackjax"]
 	path = laps/blackjax
 	url = https://github.com/blackjax-devs/blackjax.git
+[submodule "clensing"]
+	path = clensing
+	url = https://github.com/underpig1/clensing
