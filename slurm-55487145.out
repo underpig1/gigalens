@@ -1,0 +1,74 @@
+2026-07-04T11:05:36-07:00 LAUNCH
+[I 2026-07-04 11:05:41.381 ServerApp] Extension package dask_labextension took 1.2303s to import
+[W 2026-07-04 11:05:41.381 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-04 11:05:43.070 ServerApp] Extension package jupyterlab_h5web took 1.0419s to import
+[I 2026-07-04 11:05:43.426 ServerApp] Extension package jupyterlab_jupytext took 0.3558s to import
+[W 2026-07-04 11:05:43.532 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-04 11:05:43.538 ServerApp] dask_labextension | extension was successfully linked.
+[I 2026-07-04 11:05:43.539 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-07-04 11:05:43.539 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-07-04 11:05:43.547 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2026-07-04 11:05:43.547 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2026-07-04 11:05:43.554 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-07-04 11:05:43.555 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2026-07-04 11:05:43.555 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/c/chaseg
+[I 2026-07-04 11:05:43.558 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-07-04 11:05:43.563 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-04 11:05:43.566 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-07-04 11:05:43.566 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-07-04 11:05:43.566 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-07-04 11:05:43.567 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2026-07-04 11:05:43.567 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2026-07-04 11:05:43.567 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2026-07-04 11:05:43.567 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2026-07-04 11:05:43.572 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-04 11:05:43.574 ServerApp] nbclassic | extension was successfully linked.
+[I 2026-07-04 11:05:43.574 ServerApp] nbdime | extension was successfully linked.
+[W 2026-07-04 11:05:43.579 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-04 11:05:43.581 ServerApp] notebook | extension was successfully linked.
+[I 2026-07-04 11:05:43.583 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-b3bf201c-cdb5-4a1e-8707-598ab6234211/jupyter_cookie_secret
+[I 2026-07-04 11:05:43.611 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-07-04 11:05:43.683 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-07-04 11:05:43.684 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2026-07-04 11:05:43.686 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-07-04 11:05:43.687 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-07-04 11:05:43.688 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2026-07-04 11:05:43.721 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2026-07-04 11:05:43.723 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-07-04 11:05:43.744 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-07-04 11:05:43.745 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-07-04 11:05:43.912 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-07-04 11:05:44.025 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterlab
+[I 2026-07-04 11:05:44.025 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/26-06/share/jupyter/lab
+[I 2026-07-04 11:05:44.028 LabApp] Extension Manager is 'pypi'.
+[I 2026-07-04 11:05:44.046 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-07-04 11:05:44.047 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-07-04 11:05:44.047 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-07-04 11:05:44.054 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-07-04 11:05:44.243 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2026-07-04 11:05:44.244 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2026-07-04 11:05:44.244 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2026-07-04 11:05:44.244 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2026-07-04 11:05:44.246 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2026-07-04 11:05:44.247 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2026-07-04 11:05:44.247 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+[I 2026-07-04 11:05:44.248 ServerApp] Registered jupyterlab_wall server extension
+[I 2026-07-04 11:05:44.249 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2026-07-04 11:05:44.276 ServerApp] nbclassic | extension was successfully loaded.
+[I 2026-07-04 11:05:44.509 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-07-04 11:05:44.582 ServerApp] notebook | extension was successfully loaded.
+[I 2026-07-04 11:05:44.582 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2026-07-04 11:05:44.583 ServerApp] Serving notebooks from local directory: /
+[I 2026-07-04 11:05:44.583 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2026-07-04 11:05:44.583 ServerApp] http://nid001924:36337/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-04 11:05:44.583 ServerApp]     http://127.0.0.1:36337/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-04 11:05:44.584 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-07-04 11:06:05.324 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-07-04 11:06:05.475 ServerApp] Loaded Jupytext configuration file at /global/common/software/nersc9/jupyter/ex/26-06/etc/jupytext/jupytext.toml
+[I 2026-07-04 11:06:07.430 ServerApp] New terminal with automatic name: 6
+[I 2026-07-04 11:06:07.432 ServerApp] Culling terminals with inactivity > 64800 seconds at 300 second intervals ...
+[I 2026-07-04 11:06:07.666 ServerApp] New terminal with automatic name: 2
+[I 2026-07-04 11:07:21.273 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/laps-238.py
+[I 2026-07-04 11:07:26.176 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/laps-238.py
+[I 2026-07-04 11:07:27.643 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/laps-238.py
+[2026-07-05T00:05:38.617] error: *** JOB 55487145 ON nid001924 CANCELLED AT 2026-07-05T00:05:38 DUE TO TIME LIMIT ***

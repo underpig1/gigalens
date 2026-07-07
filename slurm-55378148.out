@@ -171,3 +171,4 @@ AssertionError
 [I 2026-07-02 00:05:37.007 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
 [I 2026-07-02 00:05:38.239 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
 [I 2026-07-02 00:05:43.063 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[2026-07-02T11:39:56.416] error: *** JOB 55378148 ON nid001017 CANCELLED AT 2026-07-02T11:39:56 DUE TO TIME LIMIT ***

@@ -1,0 +1,662 @@
+2026-07-02T16:37:28-07:00 LAUNCH
+[I 2026-07-02 16:37:34.969 ServerApp] Extension package dask_labextension took 1.5491s to import
+[W 2026-07-02 16:37:34.969 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-02 16:37:35.395 ServerApp] Extension package jupyter_lsp took 0.4255s to import
+[I 2026-07-02 16:37:35.577 ServerApp] Extension package jupyterlab took 0.1068s to import
+[I 2026-07-02 16:37:36.141 ServerApp] Extension package jupyterlab_git took 0.2267s to import
+[I 2026-07-02 16:37:37.197 ServerApp] Extension package jupyterlab_h5web took 1.0549s to import
+[I 2026-07-02 16:37:37.480 ServerApp] Extension package jupyterlab_jupytext took 0.2827s to import
+[I 2026-07-02 16:37:37.589 ServerApp] Extension package jupyterlab_nvdashboard took 0.1084s to import
+[W 2026-07-02 16:37:37.630 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2026-07-02 16:37:37.637 ServerApp] dask_labextension | extension was successfully linked.
+[I 2026-07-02 16:37:37.639 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-07-02 16:37:37.639 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-07-02 16:37:37.650 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2026-07-02 16:37:37.652 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2026-07-02 16:37:37.659 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-07-02 16:37:37.659 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2026-07-02 16:37:37.660 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/c/chaseg
+[I 2026-07-02 16:37:37.663 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-07-02 16:37:37.668 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-02 16:37:37.671 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-07-02 16:37:37.671 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-07-02 16:37:37.671 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-07-02 16:37:37.671 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2026-07-02 16:37:37.672 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2026-07-02 16:37:37.672 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2026-07-02 16:37:37.672 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2026-07-02 16:37:37.677 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-02 16:37:37.679 ServerApp] nbclassic | extension was successfully linked.
+[I 2026-07-02 16:37:37.679 ServerApp] nbdime | extension was successfully linked.
+[W 2026-07-02 16:37:37.684 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-07-02 16:37:37.689 ServerApp] notebook | extension was successfully linked.
+[I 2026-07-02 16:37:37.691 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-6110253d-8e68-42d8-920a-e9e718eab24b/jupyter_cookie_secret
+[I 2026-07-02 16:37:37.719 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-07-02 16:37:37.797 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-07-02 16:37:37.798 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2026-07-02 16:37:37.800 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-07-02 16:37:37.801 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-07-02 16:37:37.802 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2026-07-02 16:37:37.841 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2026-07-02 16:37:37.843 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-07-02 16:37:37.863 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-07-02 16:37:37.863 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-07-02 16:37:38.025 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-07-02 16:37:38.179 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterlab
+[I 2026-07-02 16:37:38.179 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/26-06/share/jupyter/lab
+[I 2026-07-02 16:37:38.181 LabApp] Extension Manager is 'pypi'.
+[I 2026-07-02 16:37:38.199 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-07-02 16:37:38.199 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-07-02 16:37:38.200 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-07-02 16:37:38.209 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-07-02 16:37:38.381 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2026-07-02 16:37:38.381 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2026-07-02 16:37:38.381 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2026-07-02 16:37:38.382 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2026-07-02 16:37:38.383 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2026-07-02 16:37:38.384 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2026-07-02 16:37:38.384 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+[I 2026-07-02 16:37:38.385 ServerApp] Registered jupyterlab_wall server extension
+[I 2026-07-02 16:37:38.385 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2026-07-02 16:37:38.413 ServerApp] nbclassic | extension was successfully loaded.
+[I 2026-07-02 16:37:38.654 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-07-02 16:37:38.738 ServerApp] notebook | extension was successfully loaded.
+[I 2026-07-02 16:37:38.739 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2026-07-02 16:37:38.740 ServerApp] Serving notebooks from local directory: /
+[I 2026-07-02 16:37:38.740 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2026-07-02 16:37:38.740 ServerApp] http://nid001064:35115/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-02 16:37:38.740 ServerApp]     http://127.0.0.1:35115/user/chaseg/perlmutter-exclusive-node-gpu/lab/tree/global/homes/c/chaseg?token=...
+[I 2026-07-02 16:37:38.741 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2026-07-02 16:37:59,012 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 741, in write_error
+    html = self.render_template("error.html", **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+[W 2026-07-02 16:37:59.567 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 146, in get_login_url
+        login_url = original_get_login_url()
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+2026-07-02 16:38:03,907 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+[W 2026-07-02 16:38:04.239 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-07-02 16:38:04.341 ServerApp] Loaded Jupytext configuration file at /global/common/software/nersc9/jupyter/ex/26-06/etc/jupytext/jupytext.toml
+2026-07-02 16:38:06,725 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+[I 2026-07-02 16:38:21.920 ServerApp] New terminal with automatic name: 1
+[I 2026-07-02 16:38:21.921 ServerApp] Culling terminals with inactivity > 64800 seconds at 300 second intervals ...
+2026-07-02 16:38:30,084 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+2026-07-02 16:38:30,383 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+2026-07-02 16:38:31,362 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+2026-07-02 16:38:32,050 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+2026-07-02 16:38:47,438 - ServerApp - ERROR - Uncaught exception in write_error
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1298, in send_error
+    self.write_error(status_code, **kwargs)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 739, in write_error
+    html = self.render_template("%s.html" % status_code, **ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 667, in render_template
+    return template.render(**ns)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/404.html", line 1, in top-level template code
+    {% extends "error.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/error.html", line 1, in top-level template code
+    {% extends "page.html" %}
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in top-level template code
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/templates/page.html", line 9, in block 'favicon'
+    {% block favicon %}<link id="favicon" rel="shortcut icon" type="image/x-icon" href="{{ static_url("favicon.ico") }}">
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/extension/handler.py", line 118, in static_url
+    raise Exception(msg) from None
+Exception: This extension doesn't have any static paths listed. Check that the extension's `static_paths` trait is set.
+[I 2026-07-02 16:41:05.002 ServerApp] New terminal with automatic name: 2
+Exception in callback BaseAsyncIOLoop._handle_events(91, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(91, 1)>
+Traceback (most recent call last):
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/platform/asyncio.py", line 202, in _handle_events
+    handler_func(fileobj, events)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/terminado/management.py", line 265, in pty_read
+    client.on_pty_read(s)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/terminado/websocket.py", line 81, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/terminado/websocket.py", line 86, in send_json_message
+    self.write_message(json_msg)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server_terminals/handlers.py", line 67, in write_message
+    super().write_message(message, binary=binary)
+  File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/websocket.py", line 332, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2026-07-02 16:55:29.612 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[I 2026-07-02 17:25:58.667 ServerApp] Saving file at /global/homes/c/chaseg/clensing/run.sh
+[W 2026-07-02 17:31:37.407 ServerApp] delete /global/homes/c/chaseg/clensing/map_result.bin
+[I 2026-07-02 18:01:22.458 ServerApp] Saving file at /global/homes/c/chaseg/clensing/src/inference.hpp
+[I 2026-07-02 18:02:23.627 ServerApp] Saving file at /global/homes/c/chaseg/clensing/src/inference.hpp
+[I 2026-07-02 18:02:37.099 ServerApp] Saving file at /global/homes/c/chaseg/clensing/src/model.hpp
+[I 2026-07-02 18:06:07.355 ServerApp] Saving file at /global/homes/c/chaseg/clensing/src/model.hpp
+[W 2026-07-02 18:06:14.544 ServerApp] wrote error: '/global/homes/c/chaseg/clensing/processed/obs.bin is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 391, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc9 in position 5: invalid continuation byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 205, in get
+        return self.super.get(path, content, type, format)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 460, in get
+        model = self._file_model(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 362, in _file_model
+        content, format, bytes_content = self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 400, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/global/homes/c/chaseg/clensing/processed/obs.bin is not UTF-8 encoded)
+[I 2026-07-02 18:06:29.700 ServerApp] New terminal with automatic name: 3
+[W 2026-07-02 20:29:26.795 TerminalsExtensionApp] WebSocket ping timeout after 119946 ms.
+[I 2026-07-02 21:16:45.836 ServerApp] Creating new file in /global/homes/c/chaseg/clensing
+[I 2026-07-02 21:18:54.416 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:20:54.935 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:21:29.757 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:21:45.835 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:22:31.951 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:24:26.148 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:24:33.362 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:26:33.790 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:26:57.143 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:27:12.399 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:27:15.284 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:27:32.336 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:27:59.565 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:30:00.124 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:30:01.997 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:30:06.380 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:30:12.923 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:30:29.013 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:31:27.839 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:31:33.522 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:32:02.906 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:32:29.972 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:32:32.351 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:32:39.972 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:32:57.061 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:33:49.705 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:34:01.626 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:34:18.376 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:34:32.631 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:34:50.635 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:34:58.470 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:35:14.312 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:35:23.611 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:35:32.632 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:36:45.426 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:36:50.462 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:36:51.318 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:36:53.151 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:38:01.429 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:38:12.955 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:42:06.359 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:42:46.208 ServerApp] New terminal with automatic name: 4
+[I 2026-07-02 21:50:06.715 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 21:51:32.862 ServerApp] Creating new file in /global/homes/c/chaseg/clensing
+[I 2026-07-02 21:58:03.590 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 22:02:04.129 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 22:02:17.062 ServerApp] Saving file at /global/homes/c/chaseg/clensing/describe.md
+[I 2026-07-02 22:04:38.888 ServerApp] Uploading file to /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb
+[W 2026-07-02 22:04:43.961 ServerApp] wrote error: 'Unreadable Notebook: /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb NotJSONError(\'Notebook does not appear to be JSON: \\\'{\\\\n "cells": [\\\\n  {\\\\n   "cell_type": "c...\')'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 213, in get
+        model = self.super.get(path, content, type="notebook", format=format)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 456, in get
+        model = self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 397, in _notebook_model
+        nb, bytes_content = self._read_notebook(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 312, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...'))
+[W 2026-07-02 22:04:59.771 ServerApp] wrote error: 'Unreadable Notebook: /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb NotJSONError(\'Notebook does not appear to be JSON: \\\'{\\\\n "cells": [\\\\n  {\\\\n   "cell_type": "c...\')'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 213, in get
+        model = self.super.get(path, content, type="notebook", format=format)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 456, in get
+        model = self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 397, in _notebook_model
+        nb, bytes_content = self._read_notebook(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 312, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...'))
+[I 2026-07-02 22:05:12.844 ServerApp] Uploading file to /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb
+[I 2026-07-02 22:05:14.286 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb
+[W 2026-07-02 22:05:15.776 ServerApp] wrote error: 'Unreadable Notebook: /global/homes/c/chaseg/desi-238/joons_mams.ipynb NotJSONError(\'Notebook does not appear to be JSON: \\\'{\\\\n "cells": [\\\\n  {\\\\n   "cell_type": "c...\')'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 213, in get
+        model = self.super.get(path, content, type="notebook", format=format)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 456, in get
+        model = self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 397, in _notebook_model
+        nb, bytes_content = self._read_notebook(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 312, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /global/homes/c/chaseg/desi-238/joons_mams.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...'))
+[W 2026-07-02 22:09:17.741 ServerApp] wrote error: 'Unreadable Notebook: /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb NotJSONError("Notebook does not appear to be JSON: \'7Oh8U6qfg67pZnxX7UrZttKdQx4vKB9QHS96enq...")'
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 155, in get
+        self.contents_manager.get(
+    TypeError: build_jupytext_contents_manager_class.<locals>.JupytextContentsManager.get() got an unexpected keyword argument 'require_hash'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 168, in get
+        self.contents_manager.get(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupytext/contentsmanager.py", line 213, in get
+        model = self.super.get(path, content, type="notebook", format=format)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 456, in get
+        model = self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 397, in _notebook_model
+        nb, bytes_content = self._read_notebook(
+      File "/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/site-packages/jupyter_server/services/contents/fileio.py", line 312, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb NotJSONError("Notebook does not appear to be JSON: '7Oh8U6qfg67pZnxX7UrZttKdQx4vKB9QHS96enq..."))
+[I 2026-07-02 22:11:00.573 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb
+[W 2026-07-02 22:11:02.490 ServerApp] Notebook global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb is not trusted
+[I 2026-07-02 22:11:03.528 ServerApp] Kernel started: ff7710c4-cca7-45da-8bee-38bf0277c3e4
+[I 2026-07-02 22:11:03.528 ServerApp] Culling kernels with idle durations > 64800 seconds at 300 second intervals ...
+[I 2026-07-02 22:11:09.802 ServerApp] Connecting to kernel ff7710c4-cca7-45da-8bee-38bf0277c3e4.
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:11:09.999 ServerApp] Starting buffering for ff7710c4-cca7-45da-8bee-38bf0277c3e4:a9f5e57d-7cc3-4c5c-afd2-367c7d06dc76
+[I 2026-07-02 22:11:10.134 ServerApp] Connecting to kernel ff7710c4-cca7-45da-8bee-38bf0277c3e4.
+[I 2026-07-02 22:11:10.396 ServerApp] Connecting to kernel ff7710c4-cca7-45da-8bee-38bf0277c3e4.
+[W 2026-07-02 22:11:11.126 ServerApp] Notebook global/homes/c/chaseg/desi-238/desi238_MCLMC_MAMS.ipynb is not trusted
+[I 2026-07-02 22:11:21.271 ServerApp] Kernel started: cf47da93-9fba-43c4-927a-459d89b7978b
+[I 2026-07-02 22:11:21.273 ServerApp] Kernel shutdown: ff7710c4-cca7-45da-8bee-38bf0277c3e4
+[I 2026-07-02 22:11:52.783 ServerApp] Connecting to kernel cf47da93-9fba-43c4-927a-459d89b7978b.
+[I 2026-07-02 22:11:53.173 ServerApp] Connecting to kernel cf47da93-9fba-43c4-927a-459d89b7978b.
+2026-07-02 22:12:06.992111: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1783055527.167833  385938 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1783055527.232777  385938 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1783055527.635556  385938 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1783055527.635588  385938 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1783055527.635591  385938 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1783055527.635594  385938 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[I 2026-07-02 22:12:17.395 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:12:17.443 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:12:17.443 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:12:23.498 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:12:23.624 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:12:23.625 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:12:32.783 ServerApp] Kernel started: 60c29559-9015-4a15-adc2-74113a568a97
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:12:39.733 ServerApp] Connecting to kernel 60c29559-9015-4a15-adc2-74113a568a97.
+[I 2026-07-02 22:12:39.912 ServerApp] Starting buffering for 60c29559-9015-4a15-adc2-74113a568a97:5c98b1de-a8d8-4e9e-8e29-825452dd167b
+[I 2026-07-02 22:12:39.949 ServerApp] Connecting to kernel 60c29559-9015-4a15-adc2-74113a568a97.
+[I 2026-07-02 22:12:40.249 ServerApp] Connecting to kernel 60c29559-9015-4a15-adc2-74113a568a97.
+[I 2026-07-02 22:12:51.360 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:12:51.387 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:12:51.388 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:13:15.517 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:13:15.590 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:13:15.591 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:13:20.840 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:13:20.891 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:13:20.892 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:13:25.715 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:13:25.743 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:13:25.744 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:13:27.452 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:13:27.493 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:13:27.497 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:13:41.240 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:13:41.273 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:13:41.273 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:14:27.153 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:14:27.252 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:14:27.254 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:14:43.224 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:14:43.284 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:14:43.285 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:15:25.729 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:15:25.768 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:15:25.769 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:15:37.509 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:15:37.539 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:15:37.539 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:16:16.970 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:16:17.005 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:16:17.006 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:17:39.699 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:17:39.772 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:17:39.773 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:18:02.400 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:18:02.438 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:18:02.439 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:18:30.996 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:18:31.043 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:18:31.044 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:19:02.480 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:19:02.510 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:19:02.512 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:19:20.660 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:19:20.685 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:19:20.686 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:21:08.222 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:21:08.252 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:21:08.253 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:22:51.288 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:22:51.329 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:22:51.331 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:22:52.125 ServerApp] Kernel interrupted: cf47da93-9fba-43c4-927a-459d89b7978b
+2026-07-02 22:22:53.855634: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:22:55.099341: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.243802125s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:22:56.099514: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-07-02 22:22:56.619 ServerApp] Kernel interrupted: cf47da93-9fba-43c4-927a-459d89b7978b
+[I 2026-07-02 22:22:56.836 ServerApp] Kernel interrupted: cf47da93-9fba-43c4-927a-459d89b7978b
+[I 2026-07-02 22:22:56.973 ServerApp] Kernel interrupted: cf47da93-9fba-43c4-927a-459d89b7978b
+[I 2026-07-02 22:22:57.127 ServerApp] Kernel interrupted: cf47da93-9fba-43c4-927a-459d89b7978b
+2026-07-02 22:22:59.431258: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 4.331845814s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:00.501997: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:00.591429: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.08953609s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:01.591579: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:02.130078: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.538579209s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[125,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10788), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/614213099.py" source_line=7}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+2026-07-02 22:23:29.478623: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:32.836013: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 4.357460979s
+Trying algorithm eng35{k2=1,k5=3,k14=2} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:33.836149: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:41.465788: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 8.629704865s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:42.592749: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:43.755029: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 2.162352886s
+Trying algorithm eng35{k2=1,k5=2,k14=5} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:44.755155: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:23:46.810805: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 3.055728533s
+Trying algorithm eng38{k2=4,k13=0,k14=2,k18=1,k22=2,k23=0} for conv %cudnn-conv = (f32[250,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%bitcast.61, %constant.10799), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(run_map)/jit(main)/jit(shmap_body)/while/body/jit(loss)/jvp(jit(log_prob))/jit(simulate)/conv_general_dilated" source_file="/tmp/ipykernel_385938/767026351.py" source_line=3}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+[I 2026-07-02 22:24:51.859 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:24:51.890 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:24:51.891 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+2026-07-02 22:25:04.028162: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-07-02 22:25:04.028192: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:26:10.770 ServerApp] New terminal with automatic name: 5
+2026-07-02 22:27:35.768142: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-07-02 22:27:45.512319: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-07-02 22:27:53.386183: E external/xla/xla/service/slow_operation_alarm.cc:73] Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[48,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%select.854, %constant.883), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(<lambda>)/jit(main)/vmap(jvp(jit(log_prob)))/jit(simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/desi-238/../mams/mams.py" source_line=276}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:27:54.046529: E external/xla/xla/service/slow_operation_alarm.cc:140] The operation took 1.660454364s
+Trying algorithm eng36{k2=5,k13=1,k14=3,k18=1,k23=0} for conv %cudnn-conv = (f32[48,1,200,200]{3,2,1,0}, u8[0]{0}) custom-call(%select.854, %constant.883), window={size=53x53 pad=26_26x26_26}, dim_labels=bf01_oi01->bf01, custom_call_target="__cudnn$convForward", metadata={op_name="jit(<lambda>)/jit(main)/vmap(jvp(jit(log_prob)))/jit(simulate)/conv_general_dilated" source_file="/global/u1/c/chaseg/desi-238/../mams/mams.py" source_line=276}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"cudnn_conv_backend_config":{"conv_result_scale":1,"activation_mode":"kNone","side_input_scale":0,"leakyrelu_alpha":0},"force_earliest_schedule":false,"reification_cost":[]} is taking a while...
+2026-07-02 22:28:05.492874: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-07-02 22:28:05.492899: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-07-02 22:28:32.988325: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+2026-07-02 22:28:32.988352: W external/xla/xla/service/gpu/autotuning/dot_search_space.cc:200] All configs were filtered out because none of them sufficiently match the hints. Maybe the hints set does not contain a good representative set of valid configs?Working around this by using the full hints set instead.
+[I 2026-07-02 22:28:44.179 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:28:44.210 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:28:44.211 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:30:45.072 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:30:45.107 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:30:45.108 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+/global/common/software/nersc9/jupyter/ex/26-06/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-07-02 22:31:59.517 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:31:59.549 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:31:59.550 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:32:01.678 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:32:01.709 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:32:01.710 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:34:02.304 ServerApp] Saving file at /global/homes/c/chaseg/desi-238/joon_mams.ipynb
+[I 2026-07-02 22:34:02.334 ServerApp] Saving joon_mams.ipynb
+[W 2026-07-02 22:34:02.335 ServerApp] Notebook global/homes/c/chaseg/desi-238/joon_mams.ipynb is not trusted
+[I 2026-07-02 22:36:40.585 ServerApp] Starting buffering for cf47da93-9fba-43c4-927a-459d89b7978b:a4d2d35a-8f46-4a04-96b0-29fbdb6a4377
+[I 2026-07-02 22:36:40.587 ServerApp] Starting buffering for 60c29559-9015-4a15-adc2-74113a568a97:4d5184b1-8038-43c8-9aaa-2bd2e29c45c5
+[2026-07-03T05:37:30.040] error: *** JOB 55408478 ON nid001064 CANCELLED AT 2026-07-03T05:37:30 DUE to SIGNAL Terminated ***
