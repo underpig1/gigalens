@@ -1,3 +1,5 @@
+# ONLY CALL FROM LOGIN NODE OR SRUN WILL ERROR
+
 #!/bin/bash
 salloc -N 4 --ntasks-per-node=4 --gpus-per-node=4 --constraint=gpu --qos=interactive -A deepsrch_g -t 00:30:00 bash -c "
 nvidia-smi

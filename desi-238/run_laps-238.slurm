@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --time=00:30:00
-#SBATCH --qos=debug
+#SBATCH --qos=interactive
 #SBATCH --nodes=4
 #SBATCH --ntasks-per-node=4
 #SBATCH --constraint=gpu

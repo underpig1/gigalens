@@ -222,7 +222,7 @@ import mclmc_alt as mclmc
 t = time.time()
 samples_MCLMC = mclmc.MCLMC(model_seq, 
                               qz,
-                              n_hmc=16, 
+                              n_hmc=256, 
                               num_burnin_steps=500, 
                               num_results=1000, 
                               seed=1
